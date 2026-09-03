@@ -7,27 +7,38 @@ useHead({ title: t('contact.title') })
   <div>
     <section class="bg-ink-950 py-20 text-white">
       <div class="container-page max-w-2xl">
-        <p class="section-eyebrow text-brand-300">{{ t('contact.eyebrow') }}</p>
-        <h1 class="mt-3 text-4xl font-bold tracking-tight sm:text-5xl">{{ t('contact.title') }}</h1>
-        <p class="mt-5 text-lg text-ink-100/80">{{ t('contact.subtitle') }}</p>
+        <h1 class="text-4xl font-bold tracking-tight sm:text-5xl">{{ t('contact.title') }}</h1>
       </div>
     </section>
 
-    <section class="bg-white py-16">
+    <section class="bg-[#f2f4f7] py-16">
       <div class="container-page grid max-w-4xl gap-12 lg:grid-cols-2">
-        <ContactForm />
+        <div>
+          <p class="text-ink-800/80">{{ t('contact.subtitle') }}</p>
 
-        <div class="space-y-6 text-sm text-ink-800/80">
-          <div>
-            <p class="font-semibold text-ink-900">{{ t('contact.emailLabel') }}</p>
-            <a href="mailto:contact@machinemaster.de" class="text-brand-600 hover:underline">contact@machinemaster.de</a>
-          </div>
-          <div>
-            <a href="https://instagram.com" target="_blank" rel="noopener" class="text-brand-600 hover:underline">
-              {{ t('contact.instagramLabel') }}
-            </a>
-          </div>
+          <a
+            href="mailto:contact@machinemaster.de"
+            class="mt-6 inline-block font-medium text-brand-600 underline hover:text-brand-700"
+          >
+            contact@machinemaster.de
+          </a>
+
+          <a
+            href="https://www.instagram.com/machinemaster.de"
+            target="_blank"
+            rel="noopener"
+            class="mt-6 inline-flex items-center gap-2 rounded-full border border-ink-900/15 bg-white px-4 py-2 text-sm font-medium text-ink-900 hover:border-ink-900/30"
+          >
+            <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+              <rect x="3" y="3" width="18" height="18" rx="5" />
+              <circle cx="12" cy="12" r="4" />
+              <circle cx="17.2" cy="6.8" r="0.6" fill="currentColor" stroke="none" />
+            </svg>
+            Instagram
+          </a>
         </div>
+
+        <ContactForm />
       </div>
     </section>
   </div>

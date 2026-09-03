@@ -44,11 +44,11 @@
     },
     "stats": [
       { "value": "548", "label": "machines in our catalogue" },
-      { "value": "5,903", "label": "models in stock" },
-      { "value": "18%", "label": "sales increase for our clients" }
+      { "value": "5903", "label": "models in stock" },
+      { "value": "18%", "label": "sales increase for our clients", "highlight": true }
     ],
     "brands": {
-      "title": "Trusted by dealers of leading brands"
+      "title": "Machines in our catalogue"
     },
     "retailerBenefits": {
       "eyebrow": "Benefits for retailers",

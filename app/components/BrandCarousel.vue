@@ -1,24 +1,31 @@
 <script setup lang="ts">
 const { t } = useI18n()
 
-// Identified from the live carousel's image filenames (no alt text available) — swap for real logo assets once provided.
-const brands = ['JCB', 'Kubota', 'Kärcher', 'Alke']
+const brands = [
+  { name: 'JCB', file: 'jcb.png' },
+  { name: 'Kubota', file: 'kubota.png' },
+  { name: 'Officine Carraro', file: 'crest.png' },
+  { name: 'Kärcher', file: 'kaercher.png' },
+  { name: 'Moerschen', file: 'moerschen.png' },
+  { name: 'Alkè', file: 'alke.png' }
+]
 </script>
 
 <template>
-  <section class="bg-white py-14">
+  <section class="bg-[#f2f4f7] py-14">
     <div class="container-page">
-      <p class="text-center text-sm font-semibold uppercase tracking-wide text-ink-800/50">
+      <p class="text-center text-sm text-ink-800/60">
         {{ t('home.brands.title') }}
       </p>
-      <div class="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-6">
-        <span
+      <div class="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-8">
+        <img
           v-for="brand in brands"
-          :key="brand"
-          class="text-lg font-semibold text-ink-900/40 grayscale transition hover:text-ink-900/70 hover:grayscale-0"
-        >
-          {{ brand }}
-        </span>
+          :key="brand.file"
+          :src="`/images/brands/${brand.file}`"
+          :alt="brand.name"
+          class="h-10 w-auto object-contain"
+          loading="lazy"
+        />
       </div>
     </div>
   </section>

@@ -44,11 +44,11 @@
     },
     "stats": [
       { "value": "548", "label": "Maschinen in unserem Katalog" },
-      { "value": "5.903", "label": "vorrätige Modelle" },
-      { "value": "18%", "label": "Umsatzsteigerung bei unseren Kunden" }
+      { "value": "5903", "label": "vorrätige Modelle" },
+      { "value": "18%", "label": "Umsatzsteigerung bei unseren Kunden", "highlight": true }
     ],
     "brands": {
-      "title": "Vertrauen von Händlern führender Marken"
+      "title": "Maschinen in unserem Katalog"
     },
     "retailerBenefits": {
       "eyebrow": "Vorteile für Einzelhändler",

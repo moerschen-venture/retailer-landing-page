@@ -1,0 +1,13 @@
+[build]
+  command = "npm run generate"
+  publish = ".output/public"
+
+[[plugins]]
+  package = "@netlify/plugin-nuxt"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

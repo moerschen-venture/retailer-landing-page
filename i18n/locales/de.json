@@ -1,0 +1,300 @@
+{
+  "nav": {
+    "home": "Home",
+    "modules": "Module",
+    "catalogue": "Katalog",
+    "configurator": "Konfigurator",
+    "usedMachines": "Gebrauchtmaschinen",
+    "retailerExchange": "Händlerbörse",
+    "articles": "Artikel",
+    "faq": "FAQ",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "login": "Einzelhändler-Login",
+    "mainSite": "Zur Hauptseite"
+  },
+  "footer": {
+    "tagline": "Digitale Vertriebslösung für den Maschinenhandel.",
+    "navTitle": "Navigation",
+    "modulesTitle": "Module",
+    "legalTitle": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "impressum": "Impressum",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "common": {
+    "learnMore": "Mehr erfahren",
+    "getStarted": "Jetzt anmelden",
+    "readMore": "Weiterlesen",
+    "back": "Zurück",
+    "backToArticles": "Zurück zur Übersicht"
+  },
+  "cookieBanner": {
+    "text": "Wenn Sie auf „Akzeptieren\" klicken, stimmen Sie der Speicherung von Cookies auf Ihrem Gerät zu, um die Navigation auf der Website zu verbessern, die Nutzung der Website zu analysieren und unsere Marketingaktivitäten zu unterstützen.",
+    "linkText": "Weitere Informationen finden Sie in unserer Datenschutzrichtlinie.",
+    "decline": "Verweigern",
+    "accept": "Annehmen"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Für Händler von Bau- & Landmaschinen",
+      "title": "Digitale Vertriebslösung für den Maschinenhandel",
+      "subtitle": "Ihr individueller Katalog mit Konfigurator für Lager- und Gebrauchtmaschinen auf Ihrer Website.",
+      "ctaPrimary": "Kontakt"
+    },
+    "stats": [
+      { "value": "548", "label": "Maschinen in unserem Katalog" },
+      { "value": "5.903", "label": "vorrätige Modelle" },
+      { "value": "18%", "label": "Umsatzsteigerung bei unseren Kunden" }
+    ],
+    "brands": {
+      "title": "Vertrauen von Händlern führender Marken"
+    },
+    "retailerBenefits": {
+      "eyebrow": "Vorteile für Einzelhändler",
+      "title": "Vereinfachen Sie Ihren Verkauf",
+      "subtitle": "mit der All-in-One-Lösung für den Verkauf und die Verwaltung von Lagerbeständen, Gebraucht- und Neumaschinen!",
+      "items": [
+        { "title": "Echtzeit-Updates", "description": "Halten Sie Ihren Bestand mit Echtzeitinformationen über verfügbare Maschinen auf dem neuesten Stand. Keine manuelle Nachverfolgung oder veraltete Listen mehr." },
+        { "title": "Einfacher Import", "description": "Importieren Sie Ihr gesamtes Maschineninventar mühelos über CSV- oder Excel-Dateien, um Zeit zu sparen und Fehler zu vermeiden." },
+        { "title": "Optimierte Arbeitsabläufe", "description": "Verbringen Sie weniger Zeit mit der Bestandsverwaltung und mehr Zeit mit dem Verkauf dank unseren digitalen Vertriebslösungen." },
+        { "title": "Optimale Übersicht", "description": "Vermeiden Sie Kundenfrustration durch präzise, aktuelle Bestandsinformationen." },
+        { "title": "Gesteigerte Vertriebseffizienz", "description": "Schnelle Anpassung an die Anforderungen der Branche und Reduzierung der Ausfallzeiten dank unseres digitalen Verkaufstools." }
+      ]
+    },
+    "solutions": {
+      "eyebrow": "Module",
+      "title": "Ein Werkzeug, viele Lösungen",
+      "subtitle": "Kombinieren Sie die Module frei nach Bedarf Ihres Vertriebs.",
+      "items": [
+        { "tab": "Katalog", "title": "Das gesamte Portfolio", "description": "Alle Maschinen auf einen Blick - ob neu, lagernd oder gebraucht. Individuell anpassbar an das Design Ihrer Website.", "link": "/module/catalogue" },
+        { "tab": "Konfigurator", "title": "Konfigurator", "description": "Maßgeschneiderte Maschinen für Ihre Kunden - lassen Sie Ihre Kunden ihre Wunschmaschine konfigurieren, online, übersichtlich und markenunabhängig. Für jede Maschine wählt der Kunde seine Wunschoptionen und sendet sie direkt an den Händler.", "link": "/module/configurator" },
+        { "tab": "Gebrauchtmaschinen", "title": "Gebrauchte Maschinen", "description": "...war noch nie so einfach zu verwalten. Neben Neumaschinen können Sie auch Gebrauchtmaschinen problemlos in Ihr Händlerportfolio integrieren. Der einfache Upload über eine CSV-Datei oder die Verknüpfung mit anderen Handelsplattformen sorgt für eine besonders schnelle Einrichtung.", "link": "/module/used-machines" },
+        { "tab": "Händlerbörse", "title": "Bestandsmaschinen-Plattform", "description": "Umtauschen statt nachbestellen: Prüfen Sie, ob das vom Kunden gewünschte Modell bei einem Markenhändlerkollegen verfügbar ist, und vermeiden Sie lange Wartezeiten bei Neubestellungen.", "link": "/module/retailer-exchange" }
+      ]
+    },
+    "customerBenefits": {
+      "eyebrow": "Vorteile für Ihre Kunden",
+      "title": "Außergewöhnliche Kundenerlebnisse bieten",
+      "subtitle": "Im Maschinenhandel ist die Kundenzufriedenheit entscheidend. MachineMaster verbessert Ihre Fähigkeit, Kundenwünsche schnell und effektiv zu erfüllen.",
+      "items": [
+        { "title": "Kürzere Wartezeiten", "description": "Nutzen Sie die Händlerbörse, um Maschinen von anderen Händlern zu finden, damit Kunden nicht auf Bestellungen von Herstellern warten müssen." },
+        { "title": "Maßgeschneiderte Kataloge", "description": "Erstellen Sie digitale Maschinenkataloge, die den spezifischen Anforderungen Ihrer Kunden entsprechen und es ihnen erleichtern, das zu finden, was sie brauchen." },
+        { "title": "Intuitiver Konfigurator", "description": "Ermöglichen Sie es Kunden, Maschinen nach ihren Wünschen zu gestalten, und verringern Sie so die Komplexität des Bestellvorgangs." },
+        { "title": "Verbesserte Kundentreue", "description": "Zufriedene Kunden dank schnellem Service und maßgeschneiderten Lösungen." },
+        { "title": "Höhere Konversionsraten", "description": "Bieten Sie ein müheloses Einkaufserlebnis, das Kunden überzeugt." },
+        { "title": "Weniger Rückläufer", "description": "Präzise Konfigurationen und klare Optionen minimieren Fehler und Unzufriedenheit bei Ihren Kunden." }
+      ]
+    },
+    "trialCta": {
+      "title": "Jetzt Testversion anfordern — 100% freier Zugang",
+      "subtitle": "Schöpfen Sie das volle Potenzial unserer Software mit einer 100% kostenlosen Testversion aus - registrieren Sie sich jetzt und erleben Sie alle Premium-Funktionen kostenlos!",
+      "cta": "Kontakt"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        { "q": "Welche Marken sind bei MachineMaster erhältlich?", "a": "Grundsätzlich kann MachineMaster für alle Marken, Modelle und Maschinen genutzt werden - auch Sonderanfertigungen können problemlos integriert werden. Der große Vorteil unseres markenunabhängigen Katalogs ist, dass alle Maschinendaten von unserem Team eingegeben und gepflegt werden. Vermissen Sie eine Marke, pflegt unser Team sie auf Wunsch für Sie ein." },
+        { "q": "Was passiert, wenn sich die Maschinendaten ändern?", "a": "Ständig wechseln Hersteller Modelle oder Serien - das MachineMaster-Team kümmert sich um die Datenpflege. Sobald Änderungen an den Maschinendaten vorgenommen werden, kümmern wir uns um die Korrektur und Aktualisierung. Ihre Website ist so immer auf dem neuesten Stand." },
+        { "q": "Wie können gebrauchte Maschinen in MachineMaster hochgeladen werden?", "a": "Wenn Sie bereits einen Account bei der Plattform Technikbörse haben, können Sie diesen mit MachineMaster verbinden - Maschinen erscheinen dann automatisch mit allen Daten. Alternativ ist der Upload auch über eine einfache Eingabemaske möglich." },
+        { "q": "Kann die MachineMaster-Seite angepasst werden?", "a": "MachineMaster wird als White-Label-Lösung angeboten: Layout und Struktur sind vordefiniert, aber Logo, Schriftart, Farbschema und Hintergrundbild können Sie frei wählen. Auch Titel und Metadaten legen Sie selbst über Ihr Konto fest." },
+        { "q": "Wie kann ich den MachineMaster-Katalog in meine Website integrieren?", "a": "Ihr persönlicher Maschinenkatalog inklusive Konfigurator wird von MachineMaster als Subdomain erstellt und gehostet und lässt sich nahtlos über das Menü Ihrer bestehenden Website integrieren. Unsere Experten unterstützen Sie gerne dabei." },
+        { "q": "Was passiert, wenn ein Kunde Sie über MachineMaster kontaktiert?", "a": "Der Lead wird direkt an den hinterlegten Ansprechpartner weitergeleitet - individuell definierbar pro Marke - inklusive aller Details per E-Mail. Eine Integration in Ihr CRM-System ist auf Wunsch möglich." },
+        { "q": "An welchen Funktionen arbeitet MachineMaster für die Zukunft?", "a": "Unser Team verbessert die Plattform laufend und nimmt aktuelle Trends und Innovationen auf. Vermissen Sie eine Funktion? Kontaktieren Sie uns gerne für ein individuelles Angebot." }
+      ]
+    },
+    "pricing": {
+      "title": "Pläne und Preise",
+      "subtitle": "Revolutionieren Sie Ihren Maschinenhandel mit digitalen Lösungen von MachineMaster.",
+      "tiers": [
+        {
+          "name": "Einzelhändler-Austausch",
+          "price": "29",
+          "period": "/ Monat",
+          "note": "oder 300 € (–16%) pro Jahr",
+          "description": "Tauschen statt neu kaufen - mit der brancheninternen Lagermaschinenbörse können Sie Kundenwünsche schneller erfüllen und Ihren eigenen Bestand reduzieren.",
+          "features": [
+            "Suche im Neumaschinenbestand aller teilnehmenden Markenhändler-Kollegen",
+            "Moderne Suchfunktion und Markenfilter",
+            "Direkter Kontakt zur richtigen Kontaktperson",
+            "Import des Maschinenbestands über CSV-Datei",
+            "Automatische Löschung nicht mehr gelisteter Maschinen"
+          ],
+          "cta": "Jetzt anmelden"
+        },
+        {
+          "name": "Whitelabel Onboarding",
+          "price": "1.000",
+          "priceSuffix": "einmalig",
+          "period": "+ 400 € / Marke / Monat",
+          "description": "Planung, Umsetzung und Koordination Ihres persönlichen Katalogs inklusive Hosting und technischer Integration.",
+          "features": [
+            "Technische Umsetzung inkl. Integration in bestehende Website",
+            "Hosting der Website",
+            "Umfassende Beratung und Betreuung durch unser IT-Team",
+            "Integration Ihres Portfolios auf der globalen Plattform",
+            "Eingabe von Maschinendaten inkl. Fotos"
+          ],
+          "cta": "Preisangebot anfragen",
+          "highlighted": true
+        },
+        {
+          "name": "Abonnement",
+          "price": "200",
+          "priceSuffix": "einmalig",
+          "period": "+ 30 € / Marke / Monat",
+          "note": "zzgl. 75 € je erfolgreicher Reservierung + 1% des Maschinenpreises",
+          "description": "Voller Zugriff auf Katalog, Konfigurator und globale Plattform im laufenden Abonnement.",
+          "features": [
+            "Ständige Updates von unserem Team",
+            "Kostenlose technische Unterstützung",
+            "Erweiterungen des Katalogs nach Bedarf",
+            "Pflege der Daten aller Maschinen im Datenpool",
+            "Online-Reservierung inkl. Online-Zahlung"
+          ],
+          "cta": "Jetzt anmelden"
+        }
+      ]
+    }
+  },
+  "modules": {
+    "catalogue": {
+      "title": "Katalog",
+      "subtitle": "Maschinenkatalog - Ihr Portfolio in wenigen Klicks erstellt",
+      "sections": [
+        {
+          "heading": "Ihr neuer Maschinenkatalog - erstellt mit wenigen Klicks",
+          "body": "Die Erstellung eines eigenen neuen Maschinenportfolios für Ihre Website ist oft sehr zeit- und arbeitsaufwändig. Mit MachineMaster ist es dank unseres umfangreichen Maschinenkatalogs einfacher denn je, Ihre Maschinen hinzuzufügen. Sie können den Katalog nicht nur mit Ihren eigenen Maschinen füllen, sondern ihn auch an Ihre Website anpassen - und Ihre Maschinen zusätzlich auf der globalen MachineMaster-Plattform anbieten.",
+          "features": [
+            "Vorgefertigter Maschinenkatalog mit allen Daten und Beschreibungen",
+            "Wählen Sie die richtigen Konfigurationen mit nur wenigen Klicks",
+            "Minimieren Sie menschliche Fehler durch eine intuitive Eingabeplattform",
+            "Attraktive Beschreibung aller Maschinen mit Bildern und Videos",
+            "Nahtlose Integration in die Unternehmenswebsite",
+            "Individuelle Anpassung von Schriftart, Farben, Bildern etc."
+          ]
+        }
+      ]
+    },
+    "configurator": {
+      "title": "Konfigurator",
+      "subtitle": "Kundenwünsche noch einfacher umsetzen",
+      "sections": [
+        {
+          "heading": "Kundenservice neu gedacht",
+          "body": "Fast alle Marken bieten inzwischen die Möglichkeit, ihre Maschinen mit zahlreichen Konfigurationsoptionen an die Wünsche der Kunden anzupassen.",
+          "features": [
+            "Alle Konfigurationsoptionen übersichtlich auf einer Seite",
+            "Vordefinierte Logik verhindert widersprüchliche Konfigurationen",
+            "Maschinenkonfiguration ohne Stress von zuhause"
+          ]
+        },
+        {
+          "heading": "Klar und unkompliziert",
+          "body": "Papierchaos? Immer noch ein häufiges Problem, wenn es um die Maschinenkonfiguration geht.",
+          "features": [
+            "Übersichtliche Zusammenstellung aller Optionen mit Erläuterungen",
+            "Die gewählte Konfiguration wird per E-Mail an den Händler gesendet",
+            "Effizient gestalteter Bestellprozess"
+          ]
+        },
+        {
+          "heading": "Markenunabhängig",
+          "body": "Ein Konfigurator für alle Marken in Ihrem Portfolio.",
+          "features": [
+            "Konfiguration von Maschinen verschiedener Marken",
+            "Kein Suchen mehr nach dem richtigen Konfigurator",
+            "Gleiche, einfache Bedienung für jede Marke"
+          ]
+        }
+      ]
+    },
+    "usedMachines": {
+      "title": "Gebrauchtmaschinen",
+      "subtitle": "Alle Maschinen auf einer Plattform",
+      "sections": [
+        {
+          "heading": "Gesamtkatalog",
+          "body": "Gebrauchtmaschinen, Lagermaschinen, neue Maschinen? Mit MachineMaster haben Sie einen klaren Überblick über alle Maschinen in Ihrem Katalog - und präsentieren Ihr komplettes Händlerportfolio einfach und übersichtlich auf Ihrer Website.",
+          "features": [
+            "Neue und gebrauchte Maschinen auf einer Plattform",
+            "Organisiertes Einzelhandelsportfolio",
+            "Kein Wechsel mehr zwischen verschiedenen Websites"
+          ]
+        },
+        {
+          "heading": "Einfacher Import",
+          "body": "Hier können Sie Ihren Gebrauchtmaschinenbestand von gängigen Handelsplattformen wie der Technikbörse schnell und einfach importieren. Das spart Ihnen Zeit und überflüssige Arbeit.",
+          "features": [
+            "Importieren Sie gebrauchte Maschinen von bestehenden Plattformen",
+            "Automatisierte Löschung beim Verkauf über verknüpfte Plattformen",
+            "Schneller Import statt Doppelarbeit"
+          ]
+        }
+      ]
+    },
+    "retailerExchange": {
+      "title": "Händlerbörse",
+      "subtitle": "Die Bestandsmaschinenplattform für die Industrie",
+      "sections": [
+        {
+          "heading": "Kunden- und händlerorientiert",
+          "body": "Ihr Lager ist voll und trotzdem sucht der Kunde genau die Maschine, die Sie nicht vor Ort haben? Unsere Händlerbörse bietet die Möglichkeit, andere Händler mit der passenden Maschine zu kontaktieren, um lange Wartezeiten zu vermeiden.",
+          "features": [
+            "Optimierte Kundenzufriedenheit durch kürzere Wartezeiten",
+            "Anknüpfung neuer Geschäftsbeziehungen",
+            "Verringerung der Lagerbestände durch Verkäufe"
+          ]
+        },
+        {
+          "heading": "Austausch auf gleichem Niveau",
+          "body": "MachineMaster stellt sicher, dass alle Teilnehmer nur auf die Informationen zugreifen können, die sie für ihr eigenes Unternehmen benötigen.",
+          "features": [
+            "Zugriff nur auf Bestände der eigenen Vertragsmarken",
+            "Zugriff auf Bestände anderer Händler nur bei regelmäßigem eigenem Upload",
+            "Kontakte statt Preise - Verfügbarkeit und Austausch stehen im Vordergrund"
+          ]
+        },
+        {
+          "heading": "Einfach zu bedienen",
+          "body": "MachineMaster legt besonderen Wert auf eine intuitive und einfache Bedienung, die von jedem Mitarbeiter übernommen werden kann.",
+          "features": [
+            "Moderne Suchfunktion: Marke, Maschinentyp, Modell, Serien-/interne Nr.",
+            "Unkomplizierter Kontakt mit dem richtigen Ansprechpartner",
+            "Einfacher Import über CSV-Datei/Excel-Tabelle",
+            "Automatisches Löschen nicht mehr gelisteter Maschinen",
+            "Zugang für mehrere Benutzer pro Händler möglich"
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Kontakt",
+    "subtitle": "Nutzen Sie das Formular, um direkt mit uns Kontakt aufzunehmen. Wir werden Ihnen so schnell wie möglich antworten.",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "phone": "Handynummer",
+      "message": "Nachricht",
+      "submit": "Senden",
+      "success": "Vielen Dank! Ihr Beitrag ist eingegangen!",
+      "error": "Huch! Beim Absenden des Formulars ist etwas schief gelaufen."
+    },
+    "emailLabel": "Oder schreiben Sie uns direkt:",
+    "instagramLabel": "Folgen Sie uns auf Instagram"
+  },
+  "articles": {
+    "eyebrow": "Artikel",
+    "title": "Neuigkeiten & Wissen",
+    "subtitle": "Einblicke rund um digitalen Vertrieb im Maschinenhandel."
+  },
+  "legal": {
+    "dataPrivacy": "Datenschutz",
+    "termsOfUse": "Nutzungsbedingungen",
+    "impressum": "Impressum"
+  }
+}

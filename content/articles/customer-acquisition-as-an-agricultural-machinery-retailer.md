@@ -1,0 +1,23 @@
+---
+title: "Kundengewinnung als Landmaschinenhändler"
+slug: "customer-acquisition-as-an-agricultural-machinery-retailer"
+image: "https://cdn.prod.website-files.com/6655f82844ee88d4c347a455/6674176b58f5d4e09dd5dd7a_43608.jpg"
+---
+
+Neue Kunden für Landmaschinen akquirieren - so funktioniert es.
+
+Früher reichte es aus, der einzige Landmaschinenhändler in der Gegend zu sein, um genügend Kunden und Interessenten zu gewinnen. Heute sieht das ganz anders aus - im Zeitalter der Digitalisierung besuchen potenzielle Kunden nicht mehr nur den Maschinenhändler in der Stadt, sondern suchen auch online nach Händlern. Für Ihr Unternehmen bedeutet das, dass Sie aktiv um neue Kunden werben müssen. Dazu müssen Sie sich eine Marketingstrategie überlegen und diese gekonnt umsetzen, um potenzielle Zielgruppen anzusprechen. Doch welche Strategien führen zum Erfolg bei der Kundengewinnung im Landmaschinenhandel? Wir verraten sie.
+
+## Guter Ruf: überschätzt oder unterschätzt?
+
+Mund-zu-Mund-Propaganda ist ein Instrument, das vor allem in der Landwirtschaft immer noch als sehr effektiv gilt. Denn viele Landwirte (und damit potenzielle Kunden) sind gut vernetzt und tauschen sich regelmäßig über ihre Maschinen aus. Guter Service, attraktive Angebote und Loyalität für langjährige Kunden zahlen sich hier aus: Wer bei Landwirten einen guten Ruf hat, wird auch Kollegen empfohlen und kann so potenzielle Kunden ansprechen. Allerdings machen viele Betriebe immer noch den Fehler, sich auf ihren Lorbeeren auszuruhen. Das Problem ist, dass kaum jemand einen Maschinenhändler ungefragt an einen Kollegen weiterempfiehlt. Neben den Gesprächen gibt es viele weitere Möglichkeiten, sich über die Leistungen und den Ruf eines Unternehmens zu informieren. Hier müssen die Händler ansetzen: Neben der Mund-zu-Mund-Propaganda sind vor allem die Bewertungen im Internet eine gute Möglichkeit, das eigene Image zu verbessern und sich als Unternehmen zu präsentieren. Die Aufnahme von Kundenstimmen auf der eigenen Website oder in den sozialen Medien sowie Bewertungen bei Google helfen, den Ruf in die digitale Welt zu übertragen. Langjährige und zufriedene Kunden sind oft bereit, ihre Meinung über das Unternehmen nicht nur in privaten Gesprächen, sondern auch online zu teilen - man muss sie nur fragen.
+
+## Digitaler Katalog: Finden Sie, was Sie suchen!
+
+Wenn Kunden nach einem Maschinenhändler suchen, haben sie oft schon ein bestimmtes Modell im Kopf. Mit anderen Worten: Sie suchen im Internet nach einem Unternehmen, das ihnen genau dieses Modell anbieten kann. Gerade deshalb ist es für Maschinenhändler so wichtig, ihre Produkte auf der eigenen Website zu präsentieren: Wer sich immer noch auf eine kurze Website mit einem Impressum und allenfalls einer Erwähnung der vertretenen Marken verlässt, landet bei der Google-Suche ganz unten und wird für Kunden uninteressant. Besser: Präsentieren Sie die von Ihnen angebotenen Modelle und Marken in einem digitalen Katalog im Internet. Das steigert nicht nur Ihre Position in der Google-Suche, sondern wirkt auch besonders professionell und ansprechend auf die Kunden. Mit einem Online-Katalog können Kunden sofort sehen, ob Ihr Autohaus die gesuchten Maschinen oder passende Alternativen anbietet. Das erhöht die Chance, dass sich ein Kunde für Ihr Unternehmen entscheidet.
+
+Nebenbei bemerkt: Die Einbindung eines digitalen Katalogs auf Ihrer Website ist heute denkbar einfach. Mit MachineMaster können Sie ohne großen technischen Aufwand einen professionellen Maschinenkatalog in Ihre Website integrieren. Mehr Informationen finden Sie hier.
+
+## Soziale Medien: Mehr als lustige Videos
+
+Social Media ist etwas für Modemarken und Computerspiele, aber nicht für ein landwirtschaftliches Unternehmen? Falsch: Genau hier findet sich die junge Zielgruppe, die für Sie als Maschinenhändler wichtig ist. Große Unternehmen wie John Deere (1,2 Mio. Follower), Fendt (430 Tsd. Follower) und Krone (350 Tsd. Follower) machen es bereits vor und präsentieren ihre Maschinen der breiten Masse. Aber auch immer mehr landwirtschaftliche Influencer mit tausenden von Followern zeigen, dass die landwirtschaftliche Zielgruppe in den sozialen Medien sehr gut vertreten ist. Allerdings bedarf es einer gut durchdachten Strategie, um sich hier als Unternehmen zu etablieren - stumpfe Werbung ist in diesen Medien schon lange nicht mehr effektiv. Stattdessen lohnt es sich, einen Social-Media-Account mit Inhalten zu füllen, die einen Mehrwert für den Betrachter bieten. Verschiedene Strategien können zu diesem Ziel führen: Ob informative Wissensvermittlung oder witziger Imageaufbau für Ihr Unternehmen, es gibt viele Möglichkeiten, eine treue Community von interessierten Landmaschinenfans aufzubauen.

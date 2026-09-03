@@ -1,0 +1,300 @@
+{
+  "nav": {
+    "home": "Home",
+    "modules": "Modules",
+    "catalogue": "Catalogue",
+    "configurator": "Configurator",
+    "usedMachines": "Used Machines",
+    "retailerExchange": "Retailer Exchange",
+    "articles": "Articles",
+    "faq": "FAQ",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Retailer Login",
+    "mainSite": "Go to main site"
+  },
+  "footer": {
+    "tagline": "The digital sales solution for the machinery trade.",
+    "navTitle": "Navigation",
+    "modulesTitle": "Modules",
+    "legalTitle": "Legal",
+    "privacy": "Data Privacy",
+    "terms": "Terms of Use",
+    "impressum": "Imprint",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "getStarted": "Sign up now",
+    "readMore": "Read more",
+    "back": "Back",
+    "backToArticles": "Back to overview"
+  },
+  "cookieBanner": {
+    "text": "By clicking \"Accept\", you agree to the storing of cookies on your device to improve site navigation, analyze site usage, and support our marketing activities.",
+    "linkText": "See our privacy policy for more information.",
+    "decline": "Decline",
+    "accept": "Accept"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "For construction & agricultural machinery retailers",
+      "title": "The digital sales solution for the machinery trade",
+      "subtitle": "Your own catalogue with configurator for stock and used machines, on your website.",
+      "ctaPrimary": "Contact"
+    },
+    "stats": [
+      { "value": "548", "label": "machines in our catalogue" },
+      { "value": "5,903", "label": "models in stock" },
+      { "value": "18%", "label": "sales increase for our clients" }
+    ],
+    "brands": {
+      "title": "Trusted by dealers of leading brands"
+    },
+    "retailerBenefits": {
+      "eyebrow": "Benefits for retailers",
+      "title": "Simplify your sales",
+      "subtitle": "with the all-in-one solution for selling and managing stock, used and new machines!",
+      "items": [
+        { "title": "Real-time updates", "description": "Keep your inventory up to date with real-time information on available machines. No more manual tracking or outdated listings." },
+        { "title": "Easy import", "description": "Import your entire machine inventory effortlessly via CSV or Excel files, saving time and avoiding errors." },
+        { "title": "Streamlined workflows", "description": "Spend less time on inventory management and more time selling, thanks to our digital sales tools." },
+        { "title": "Optimal overview", "description": "Avoid customer frustration with precise, up-to-date inventory information." },
+        { "title": "Higher sales efficiency", "description": "Adapt quickly to industry requirements and reduce downtime with our digital sales tool." }
+      ]
+    },
+    "solutions": {
+      "eyebrow": "Modules",
+      "title": "One tool, many solutions",
+      "subtitle": "Combine the modules freely to match your sales process.",
+      "items": [
+        { "tab": "Catalogue", "title": "Your entire portfolio", "description": "Every machine at a glance — new, in stock, or used. Fully customizable to match your website's design.", "link": "/module/catalogue" },
+        { "tab": "Configurator", "title": "Configurator", "description": "Custom machines for your customers — let them configure their ideal machine online, clearly and brand-independently. For every machine, customers pick their preferred options and send them straight to the dealer.", "link": "/module/configurator" },
+        { "tab": "Used Machines", "title": "Used machines", "description": "Managing them has never been easier. Alongside new machines, you can integrate used machines into your dealer portfolio without friction. Simple CSV upload or linking to other common trading platforms means fast setup.", "link": "/module/used-machines" },
+        { "tab": "Retailer Exchange", "title": "Stock exchange platform", "description": "Trade instead of reorder: check whether the model your customer wants is available at a fellow brand dealer, and avoid long waits on new orders.", "link": "/module/retailer-exchange" }
+      ]
+    },
+    "customerBenefits": {
+      "eyebrow": "Benefits for your customers",
+      "title": "Deliver exceptional customer experiences",
+      "subtitle": "In the machinery trade, customer satisfaction is everything. MachineMaster improves your ability to meet customer needs quickly and effectively.",
+      "items": [
+        { "title": "Shorter wait times", "description": "Use the retailer exchange to find machines from other dealers, so customers don't have to wait on manufacturer orders." },
+        { "title": "Tailored catalogues", "description": "Create digital machine catalogues tailored to your customers' specific needs, making it easier for them to find what they need." },
+        { "title": "Intuitive configurator", "description": "Let customers shape machines to their preferences, reducing the complexity of the ordering process." },
+        { "title": "Improved customer loyalty", "description": "Satisfied customers thanks to fast service and tailored solutions." },
+        { "title": "Higher conversion rates", "description": "Offer an effortless buying experience that convinces customers." },
+        { "title": "Fewer returns", "description": "Precise configurations and clear options minimize errors and customer dissatisfaction." }
+      ]
+    },
+    "trialCta": {
+      "title": "Request a trial now — 100% free access",
+      "subtitle": "Unlock the full potential of our software with a 100% free trial — sign up now and experience all premium features for free!",
+      "cta": "Contact"
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "items": [
+        { "q": "Which brands are available on MachineMaster?", "a": "MachineMaster can in principle be used for any brand, model or machine — even custom-built ones integrate without issue. The advantage of our brand-independent catalogue is that all machine data is entered and maintained by our team. Missing a brand? Our team will add it for you on request." },
+        { "q": "What happens when machine data changes?", "a": "Manufacturers constantly switch models or series — the MachineMaster team takes care of data upkeep. As soon as machine data changes, we correct and update it, so your website is always current." },
+        { "q": "How can used machines be uploaded to MachineMaster?", "a": "If you already have an account with the Technikbörse platform, you can connect it to MachineMaster — machines then appear automatically with all data. Alternatively, upload is possible via a simple input form." },
+        { "q": "Can the MachineMaster page be customized?", "a": "MachineMaster is offered as a white-label solution: layout and structure are predefined, but logo, font, color scheme and background image are yours to choose. You also set the title and metadata for your page yourself via your account." },
+        { "q": "How do I integrate the MachineMaster catalogue into my website?", "a": "Your personal machine catalogue, including configurator, is built and hosted by MachineMaster as a subdomain and integrates seamlessly into your existing website's menu. Our experts are happy to support you through the process." },
+        { "q": "What happens when a customer contacts you via MachineMaster?", "a": "The lead is forwarded directly to the designated contact person — definable individually per brand — with all details by email. Integration into your CRM system is possible on request." },
+        { "q": "What features is MachineMaster working on next?", "a": "Our team continuously improves the platform and incorporates current trends and innovations. Missing a feature? Feel free to contact us to discuss a custom offer." }
+      ]
+    },
+    "pricing": {
+      "title": "Plans & pricing",
+      "subtitle": "Revolutionize your machinery trade with digital solutions from MachineMaster.",
+      "tiers": [
+        {
+          "name": "Retailer Exchange",
+          "price": "29",
+          "period": "/ month",
+          "note": "or €300 (–16%) per year",
+          "description": "Trade instead of buying new — the industry-internal stock exchange lets you meet customer requests faster while reducing your own inventory.",
+          "features": [
+            "Search the new-machine inventory of all participating brand dealers",
+            "Modern search function and brand filters",
+            "Direct contact with the right person",
+            "Import your machine inventory via CSV file",
+            "Automatic removal of delisted machines"
+          ],
+          "cta": "Get started"
+        },
+        {
+          "name": "Whitelabel Onboarding",
+          "price": "1,000",
+          "priceSuffix": "one-time",
+          "period": "+ €400 / brand / month",
+          "description": "Planning, implementation and coordination of your personal catalogue, including hosting and technical integration.",
+          "features": [
+            "Technical implementation incl. integration into your existing website",
+            "Website hosting",
+            "Comprehensive consulting and support from our IT team",
+            "Portfolio integration on the global platform",
+            "Machine data entry incl. photos"
+          ],
+          "cta": "Request a quote",
+          "highlighted": true
+        },
+        {
+          "name": "Subscription",
+          "price": "200",
+          "priceSuffix": "one-time",
+          "period": "+ €30 / brand / month",
+          "note": "plus €75 per successful reservation + 1% of the machine price",
+          "description": "Full access to catalogue, configurator and global platform on an ongoing subscription.",
+          "features": [
+            "Continuous updates from our team",
+            "Free technical support",
+            "Catalogue extensions on request",
+            "Data upkeep for all machines in the pool",
+            "Online reservation incl. online payment"
+          ],
+          "cta": "Get started"
+        }
+      ]
+    }
+  },
+  "modules": {
+    "catalogue": {
+      "title": "Catalogue",
+      "subtitle": "Machine catalogue - your portfolio built in a few clicks",
+      "sections": [
+        {
+          "heading": "Your new machine catalogue - built in a few clicks",
+          "body": "Building a new machine portfolio for your website is often time- and labor-intensive. With MachineMaster's extensive machine catalogue, adding your machines has never been easier. Fill the catalogue with your own machines and adapt it to your website — and offer your machines on the global MachineMaster platform too.",
+          "features": [
+            "Ready-made machine catalogue with all data and descriptions",
+            "Pick the right configurations in just a few clicks",
+            "Minimize human error with an intuitive input platform",
+            "Attractive listings for every machine, with images and videos",
+            "Seamless integration into your company website",
+            "Custom fonts, colors, images and more"
+          ]
+        }
+      ]
+    },
+    "configurator": {
+      "title": "Configurator",
+      "subtitle": "Meet customer requests even more easily",
+      "sections": [
+        {
+          "heading": "Customer service, reimagined",
+          "body": "Almost every brand now offers ways to adapt their machines to customer needs through numerous configuration options.",
+          "features": [
+            "All configuration options shown clearly on one page",
+            "Predefined logic prevents conflicting configurations",
+            "Configure machines stress-free from home"
+          ]
+        },
+        {
+          "heading": "Clear and straightforward",
+          "body": "Paper chaos? Still a common problem when it comes to machine configuration.",
+          "features": [
+            "Clear overview of all options with explanations",
+            "The chosen configuration is emailed straight to the dealer",
+            "Efficiently designed ordering process"
+          ]
+        },
+        {
+          "heading": "Brand-independent",
+          "body": "One configurator for every brand in your portfolio.",
+          "features": [
+            "Configure machines from different brands",
+            "No more hunting for the right configurator",
+            "The same simple experience for every brand"
+          ]
+        }
+      ]
+    },
+    "usedMachines": {
+      "title": "Used Machines",
+      "subtitle": "Every machine on one platform",
+      "sections": [
+        {
+          "heading": "Complete catalogue",
+          "body": "Used machines, stock machines, new machines? With MachineMaster you get a clear overview of every machine in your catalogue — presenting your entire dealer portfolio simply and clearly on your website.",
+          "features": [
+            "New and used machines on one platform",
+            "An organized retail portfolio",
+            "No more switching between different websites"
+          ]
+        },
+        {
+          "heading": "Easy import",
+          "body": "Import your used-machine inventory quickly and easily from common trading platforms like Technikbörse. That saves you time and unnecessary work.",
+          "features": [
+            "Import used machines from existing platforms",
+            "Automatic removal when sold via linked platforms",
+            "Fast import instead of duplicate work"
+          ]
+        }
+      ]
+    },
+    "retailerExchange": {
+      "title": "Retailer Exchange",
+      "subtitle": "The stock machine platform for the industry",
+      "sections": [
+        {
+          "heading": "Customer- and dealer-focused",
+          "body": "Your stock is full, yet the customer wants exactly the machine you don't have on site? Our retailer exchange lets you contact other dealers with the right machine, avoiding long wait times.",
+          "features": [
+            "Better customer satisfaction through shorter wait times",
+            "New business relationships",
+            "Reduced inventory through sales"
+          ]
+        },
+        {
+          "heading": "Trading as equals",
+          "body": "MachineMaster ensures every participant can only access the information they need for their own business.",
+          "features": [
+            "Access only to inventory of your own contracted brands",
+            "Access to other dealers' inventory only with regular uploads of your own",
+            "Contacts over prices — availability and exchange come first"
+          ]
+        },
+        {
+          "heading": "Easy to use",
+          "body": "MachineMaster places special emphasis on an intuitive, simple experience any employee can pick up.",
+          "features": [
+            "Modern search: brand, machine type, model, serial/internal no.",
+            "Straightforward contact with the right person",
+            "Easy import via CSV file/Excel spreadsheet",
+            "Automatic removal of delisted machines",
+            "Access for multiple users per dealer"
+          ]
+        }
+      ]
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Contact",
+    "subtitle": "Use the form to reach us directly. We'll reply as soon as we can.",
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Email",
+      "phone": "Phone number",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Thank you! Your submission has been received!",
+      "error": "Oops! Something went wrong while submitting the form."
+    },
+    "emailLabel": "Or write to us directly:",
+    "instagramLabel": "Follow us on Instagram"
+  },
+  "articles": {
+    "eyebrow": "Articles",
+    "title": "News & insights",
+    "subtitle": "Insights on digital sales in the machinery trade."
+  },
+  "legal": {
+    "dataPrivacy": "Data Privacy",
+    "termsOfUse": "Terms of Use",
+    "impressum": "Imprint"
+  }
+}

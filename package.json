@@ -2,6 +2,9 @@
   "name": "mm-retailer-landing-page",
   "type": "module",
   "private": true,
+  "engines": {
+    "node": "^22.19.0 || ^24.11.0 || >=26.0.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
@@ -21,8 +24,5 @@
     "@tailwindcss/vite": "^4.3.3",
     "@types/markdown-it": "^14.2.0",
     "tailwindcss": "^4.3.3"
-  },
-  "allowScripts": {
-    "better-sqlite3@13.0.3": true
   }
 }

@@ -17,10 +17,10 @@ const otherLocale = computed(() => locales.value.find((l) => (typeof l === 'stri
 </script>
 
 <template>
-  <header class="relative z-20 bg-ink-950">
+  <header class="sticky top-0 z-30 bg-ink-950">
     <div class="container-page flex h-16 items-center justify-between gap-6">
       <NuxtLink :to="localePath('/')">
-        <LogoMark light />
+        <LogoMark light subtitle />
       </NuxtLink>
 
       <nav class="hidden items-center gap-6 text-sm font-medium text-white/80 lg:flex">
@@ -49,9 +49,13 @@ const otherLocale = computed(() => locales.value.find((l) => (typeof l === 'stri
       </nav>
 
       <div class="hidden items-center gap-4 lg:flex">
-        <a href="https://machinemaster.de" target="_blank" rel="noopener" class="flex items-center gap-2 text-sm text-white/60 hover:text-white/90">
+        <a href="https://machinemaster.de" target="_blank" rel="noopener" class="flex items-center gap-1.5 text-sm text-white/60 hover:text-white/90">
           {{ t('nav.mainSite') }}
-          <span class="scale-[0.6] origin-left"><LogoMark light /></span>
+          <svg class="h-4 w-4 flex-shrink-0 text-brand-500" viewBox="0 0 40 32" fill="currentColor" aria-hidden="true">
+            <polygon points="14,11 22,11 14,30 6,30" />
+            <polygon points="30,2 38,2 30,30 22,30" />
+          </svg>
+          <span class="text-xs font-extrabold uppercase tracking-tight text-white/80">MachineMaster</span>
         </a>
         <NuxtLink
           v-if="otherLocale"

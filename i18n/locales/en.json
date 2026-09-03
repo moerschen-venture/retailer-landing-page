@@ -10,8 +10,10 @@
     "faq": "FAQ",
     "pricing": "Pricing",
     "contact": "Contact",
-    "login": "Retailer Login",
-    "mainSite": "Go to main site"
+    "login": "Retailer",
+    "mainSite": "Go to",
+    "logoSubtitle": "for",
+    "logoSubtitleHighlight": "Retailers"
   },
   "footer": {
     "tagline": "The digital sales solution for the machinery trade.",
@@ -106,55 +108,68 @@
     "pricing": {
       "title": "Plans & pricing",
       "subtitle": "Revolutionize your machinery trade with digital solutions from MachineMaster.",
-      "tiers": [
-        {
-          "name": "Retailer Exchange",
-          "price": "29",
-          "period": "/ month",
-          "note": "or €300 (–16%) per year",
-          "description": "Trade instead of buying new — the industry-internal stock exchange lets you meet customer requests faster while reducing your own inventory.",
+      "labels": {
+        "perMonth": "per month",
+        "or": "or",
+        "perYear": "per year",
+        "then": "Then",
+        "perBrand": "Per brand",
+        "monthly": "monthly",
+        "oneTimePayment": "One-time payment",
+        "variableCosts": "Variable costs",
+        "variableCostsNote": "per successful reservation + 1% of the machine price"
+      },
+      "simple": {
+        "name": "Retailer Exchange",
+        "description": "Trade instead of buying new — the industry-internal stock exchange lets you meet customer requests faster while reducing your own inventory.",
+        "cta": "Get started",
+        "monthlyPrice": "29",
+        "yearlyPrice": "300",
+        "yearlyDiscount": "-16%",
+        "benefitsTitle": "Your benefits",
+        "benefits": [
+          "Search the new-machine inventory of all participating brand dealers",
+          "Modern search function and brand filters",
+          "Direct contact with the right person",
+          "Import your machine inventory via CSV file",
+          "Automatic removal of machines no longer in your import file",
+          "Contact persons can be defined per brand",
+          "Access for multiple users per dealer"
+        ]
+      },
+      "combined": {
+        "eyebrow": "Update your website",
+        "title": "Whitelabel solution: digital catalogue and configurator",
+        "description": "Our digital catalogue, including machine configurator, not only brings more customers and leads to your website but also integrates seamlessly. Let your customers search for specific machines and models, get familiar with them digitally, and configure them themselves.",
+        "cta": "Get your quote now",
+        "onboarding": {
+          "title": "Onboarding",
           "features": [
-            "Search the new-machine inventory of all participating brand dealers",
-            "Modern search function and brand filters",
-            "Direct contact with the right person",
-            "Import your machine inventory via CSV file",
-            "Automatic removal of delisted machines"
-          ],
-          "cta": "Get started"
-        },
-        {
-          "name": "Whitelabel Onboarding",
-          "price": "1,000",
-          "priceSuffix": "one-time",
-          "period": "+ €400 / brand / month",
-          "description": "Planning, implementation and coordination of your personal catalogue, including hosting and technical integration.",
-          "features": [
-            "Technical implementation incl. integration into your existing website",
+            "Planning, implementation and coordination of your personal catalogue for your website",
+            "Technical implementation (incl. integration into existing websites, domain redirection, etc.)",
             "Website hosting",
-            "Comprehensive consulting and support from our IT team",
-            "Portfolio integration on the global platform",
-            "Machine data entry incl. photos"
+            "Comprehensive consulting and support from a competent IT team",
+            "Integration of your portfolio on the global website and in the catalogue",
+            "Machine data entry incl. photos of machines not yet in the data pool"
           ],
-          "cta": "Request a quote",
-          "highlighted": true
+          "oneTime": "1,000",
+          "perBrand": "400"
         },
-        {
-          "name": "Subscription",
-          "price": "200",
-          "priceSuffix": "one-time",
-          "period": "+ €30 / brand / month",
-          "note": "plus €75 per successful reservation + 1% of the machine price",
-          "description": "Full access to catalogue, configurator and global platform on an ongoing subscription.",
+        "subscription": {
+          "title": "Subscription",
           "features": [
+            "Full access to all features such as machine catalogue, configurator and global platform",
             "Continuous updates from our team",
             "Free technical support",
             "Catalogue extensions on request",
-            "Data upkeep for all machines in the pool",
-            "Online reservation incl. online payment"
+            "Updating and maintaining the data of all machines in the data pool",
+            "Online reservation including online payment"
           ],
-          "cta": "Get started"
+          "oneTime": "200",
+          "perBrand": "30",
+          "variableCost": "75"
         }
-      ]
+      }
     }
   },
   "modules": {

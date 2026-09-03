@@ -10,8 +10,10 @@
     "faq": "FAQ",
     "pricing": "Preise",
     "contact": "Kontakt",
-    "login": "Einzelhändler-Login",
-    "mainSite": "Zur Hauptseite"
+    "login": "Einzelhändler",
+    "mainSite": "Gehe zu",
+    "logoSubtitle": "für",
+    "logoSubtitleHighlight": "Einzelhändler"
   },
   "footer": {
     "tagline": "Digitale Vertriebslösung für den Maschinenhandel.",
@@ -106,55 +108,68 @@
     "pricing": {
       "title": "Pläne und Preise",
       "subtitle": "Revolutionieren Sie Ihren Maschinenhandel mit digitalen Lösungen von MachineMaster.",
-      "tiers": [
-        {
-          "name": "Einzelhändler-Austausch",
-          "price": "29",
-          "period": "/ Monat",
-          "note": "oder 300 € (–16%) pro Jahr",
-          "description": "Tauschen statt neu kaufen - mit der brancheninternen Lagermaschinenbörse können Sie Kundenwünsche schneller erfüllen und Ihren eigenen Bestand reduzieren.",
+      "labels": {
+        "perMonth": "pro Monat",
+        "or": "oder",
+        "perYear": "pro Jahr",
+        "then": "Dann",
+        "perBrand": "Pro Marke",
+        "monthly": "monatlich",
+        "oneTimePayment": "Einmalige Zahlung",
+        "variableCosts": "Variable Kosten",
+        "variableCostsNote": "pro erfolgreicher Reservierung + 1% des Maschinenpreises"
+      },
+      "simple": {
+        "name": "Einzelhändler-Austausch",
+        "description": "Tauschen statt neu kaufen - mit der brancheninternen Lagerautomatenbörse können Sie die Wünsche Ihrer Kunden schneller erfüllen und gleichzeitig Ihren eigenen Bestand reduzieren.",
+        "cta": "Jetzt anmelden",
+        "monthlyPrice": "29",
+        "yearlyPrice": "300",
+        "yearlyDiscount": "-16%",
+        "benefitsTitle": "Ihre Vorteile",
+        "benefits": [
+          "Suche im Neumaschinenbestand aller teilnehmenden Markenhändler-Kollegen",
+          "Moderne Suchfunktion und Markenfilter",
+          "Direkter Kontakt zur richtigen Kontaktperson",
+          "Import des Maschinenbestands über CSV-Datei",
+          "Automatische Löschung aller Maschinen, die nicht mehr in Ihrer Importdatei erscheinen",
+          "Ansprechpartner können über die Marke definiert werden",
+          "Zugang für mehrere Benutzer pro Händler möglich"
+        ]
+      },
+      "combined": {
+        "eyebrow": "Aktualisieren Sie Ihre Website",
+        "title": "Whitelabel-Lösung: Digitaler Katalog und Konfigurator",
+        "description": "Unser digitaler Katalog inklusive Maschinenkonfigurator sorgt nicht nur für mehr Kunden und Leads auf Ihrer Website, sondern lässt sich auch nahtlos integrieren. Bieten Sie Ihren Kunden die Möglichkeit, nach bestimmten Maschinen und Modellen zu suchen, sich digital mit ihnen vertraut zu machen und sie selbst zu konfigurieren.",
+        "cta": "Holen Sie sich jetzt Ihr Preisangebot",
+        "onboarding": {
+          "title": "Onboarding",
           "features": [
-            "Suche im Neumaschinenbestand aller teilnehmenden Markenhändler-Kollegen",
-            "Moderne Suchfunktion und Markenfilter",
-            "Direkter Kontakt zur richtigen Kontaktperson",
-            "Import des Maschinenbestands über CSV-Datei",
-            "Automatische Löschung nicht mehr gelisteter Maschinen"
-          ],
-          "cta": "Jetzt anmelden"
-        },
-        {
-          "name": "Whitelabel Onboarding",
-          "price": "1.000",
-          "priceSuffix": "einmalig",
-          "period": "+ 400 € / Marke / Monat",
-          "description": "Planung, Umsetzung und Koordination Ihres persönlichen Katalogs inklusive Hosting und technischer Integration.",
-          "features": [
-            "Technische Umsetzung inkl. Integration in bestehende Website",
+            "Planung, Umsetzung und Koordination Ihres persönlichen Katalogs für Ihre Website",
+            "Technische Umsetzung (inkl. Integration in bestehende Websites, Domainumleitung, etc.)",
             "Hosting der Website",
-            "Umfassende Beratung und Betreuung durch unser IT-Team",
-            "Integration Ihres Portfolios auf der globalen Plattform",
-            "Eingabe von Maschinendaten inkl. Fotos"
+            "Umfassende Beratung und Betreuung durch ein kompetentes IT-Team",
+            "Integration Ihres Portfolios auf der globalen Website und im Katalog",
+            "Eingabe von Maschinendaten inkl. Fotos von Maschinen, die noch nicht im Datenpool sind"
           ],
-          "cta": "Preisangebot anfragen",
-          "highlighted": true
+          "oneTime": "1000",
+          "perBrand": "400"
         },
-        {
-          "name": "Abonnement",
-          "price": "200",
-          "priceSuffix": "einmalig",
-          "period": "+ 30 € / Marke / Monat",
-          "note": "zzgl. 75 € je erfolgreicher Reservierung + 1% des Maschinenpreises",
-          "description": "Voller Zugriff auf Katalog, Konfigurator und globale Plattform im laufenden Abonnement.",
+        "subscription": {
+          "title": "Abonnement",
           "features": [
+            "Voller Zugriff auf alle Funktionen wie Maschinenkatalog, Konfigurator und globale Plattform",
             "Ständige Updates von unserem Team",
             "Kostenlose technische Unterstützung",
-            "Erweiterungen des Katalogs nach Bedarf",
-            "Pflege der Daten aller Maschinen im Datenpool",
-            "Online-Reservierung inkl. Online-Zahlung"
+            "Erweiterungen des Maschinenkatalogs nach Bedarf",
+            "Aktualisierung und Pflege der Daten aller Maschinen im Datenpool",
+            "Online-Reservierung einschließlich Online-Zahlung"
           ],
-          "cta": "Jetzt anmelden"
+          "oneTime": "200",
+          "perBrand": "30",
+          "variableCost": "75"
         }
-      ]
+      }
     }
   },
   "modules": {

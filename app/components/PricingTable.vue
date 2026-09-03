@@ -1,65 +1,120 @@
 <script setup lang="ts">
-interface Tier {
-  name: string
-  price: string
-  priceSuffix?: string
-  period: string
-  note?: string
-  description: string
+interface OnboardingPlan {
+  title: string
   features: string[]
-  cta: string
-  highlighted?: boolean
+  oneTime: string
+  perBrand: string
+  variableCost?: string
 }
 
 const { t, tm, rt } = useI18n()
 const localePath = useLocalePath()
-const tiers = computed(() => tm('home.pricing.tiers') as Tier[])
+
+const simpleBenefits = computed(() => tm('home.pricing.simple.benefits') as string[])
+const onboarding = computed(() => tm('home.pricing.combined.onboarding') as OnboardingPlan)
+const subscription = computed(() => tm('home.pricing.combined.subscription') as OnboardingPlan)
 </script>
 
 <template>
   <section id="pricing" class="scroll-mt-20 bg-gradient-to-b from-brand-500 to-white py-20">
     <div class="container-page">
-      <div class="max-w-2xl text-center sm:mx-auto">
+      <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">{{ t('home.pricing.title') }}</h2>
         <p class="mt-4 text-white/90">{{ t('home.pricing.subtitle') }}</p>
       </div>
 
-      <div class="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-3">
-        <div
-          v-for="(tier, i) in tiers"
-          :key="i"
-          :class="[
-            'flex flex-col rounded-2xl border bg-white p-8 shadow-lg',
-            tier.highlighted ? 'border-brand-500 ring-1 ring-brand-500' : 'border-ink-900/10'
-          ]"
-        >
-          <h3 class="text-lg font-semibold text-ink-900">{{ rt(tier.name) }}</h3>
-          <p class="mt-4 flex items-baseline gap-1">
-            <span class="text-3xl font-bold text-ink-950">{{ rt(tier.price) }}€</span>
-            <span v-if="tier.priceSuffix" class="text-xs text-ink-800/50">({{ rt(tier.priceSuffix) }})</span>
-          </p>
-          <p class="text-sm text-ink-800/60">{{ rt(tier.period) }}</p>
-          <p v-if="tier.note" class="mt-1 text-xs text-ink-800/50">{{ rt(tier.note) }}</p>
-          <p class="mt-4 text-sm text-ink-800/70">{{ rt(tier.description) }}</p>
+      <div class="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-[1fr_2fr] lg:items-start">
+        <!-- Simple tier: Einzelhändler-Austausch -->
+        <div class="rounded-3xl border border-ink-900/10 bg-white p-8 shadow-lg">
+          <h3 class="text-xl font-semibold text-ink-900">{{ t('home.pricing.simple.name') }}</h3>
+          <p class="mt-3 text-sm text-ink-800/70">{{ t('home.pricing.simple.description') }}</p>
 
-          <ul class="mt-6 flex-1 space-y-3 text-sm">
-            <li v-for="(feature, fi) in tier.features" :key="fi" class="flex items-start gap-2">
-              <svg class="mt-0.5 h-4 w-4 flex-shrink-0 text-brand-500" viewBox="0 0 20 20" fill="currentColor">
-                <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
-              </svg>
+          <NuxtLink :to="localePath('/contact')" class="btn-primary mt-6 w-full">
+            {{ t('home.pricing.simple.cta') }}
+          </NuxtLink>
+
+          <div class="mt-6 rounded-xl border border-ink-900/10 p-4">
+            <p class="text-3xl font-bold text-ink-950">{{ t('home.pricing.simple.monthlyPrice') }}€</p>
+            <p class="text-sm text-ink-800/50">{{ t('home.pricing.labels.perMonth') }}</p>
+          </div>
+          <p class="my-3 text-center text-sm text-ink-800/50">{{ t('home.pricing.labels.or') }}</p>
+          <div class="rounded-xl border border-ink-900/10 p-4">
+            <p class="flex items-center gap-2 text-3xl font-bold text-ink-950">
+              {{ t('home.pricing.simple.yearlyPrice') }}€
+              <span class="rounded-full bg-brand-50 px-2 py-0.5 text-xs font-semibold text-brand-600">{{ t('home.pricing.simple.yearlyDiscount') }}</span>
+            </p>
+            <p class="text-sm text-ink-800/50">{{ t('home.pricing.labels.perYear') }}</p>
+          </div>
+
+          <hr class="my-6 border-ink-900/10" />
+
+          <h4 class="font-semibold text-ink-900">{{ t('home.pricing.simple.benefitsTitle') }}</h4>
+          <ul class="mt-4 space-y-3 text-sm">
+            <li v-for="(feature, i) in simpleBenefits" :key="i" class="flex items-start gap-2">
+              <PricingCheck />
               <span class="text-ink-900">{{ rt(feature) }}</span>
             </li>
           </ul>
+        </div>
 
-          <NuxtLink
-            :to="localePath('/contact')"
-            :class="[
-              'mt-8 inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-semibold transition',
-              tier.highlighted ? 'bg-brand-500 text-white hover:bg-brand-600' : 'bg-ink-900/5 text-ink-900 hover:bg-ink-900/10'
-            ]"
-          >
-            {{ rt(tier.cta) }}
+        <!-- Combined tier: Whitelabel catalogue + configurator -->
+        <div class="rounded-3xl border border-ink-900/10 bg-white p-8 shadow-lg">
+          <p class="section-eyebrow">{{ t('home.pricing.combined.eyebrow') }}</p>
+          <h3 class="mt-2 text-xl font-semibold text-ink-900">{{ t('home.pricing.combined.title') }}</h3>
+          <p class="mt-3 text-sm text-ink-800/70">{{ t('home.pricing.combined.description') }}</p>
+
+          <NuxtLink :to="localePath('/contact')" class="btn-primary mt-6 w-full">
+            {{ t('home.pricing.combined.cta') }}
           </NuxtLink>
+
+          <div class="mt-8 grid grid-cols-1 gap-8 sm:grid-cols-2">
+            <div>
+              <h4 class="font-semibold text-ink-900">{{ rt(onboarding.title) }}</h4>
+              <ul class="mt-4 space-y-3 text-sm">
+                <li v-for="(feature, i) in onboarding.features" :key="i" class="flex items-start gap-2">
+                  <PricingCheck />
+                  <span class="text-ink-900">{{ rt(feature) }}</span>
+                </li>
+              </ul>
+
+              <div class="mt-6 rounded-xl border border-ink-900/10 p-4">
+                <p class="text-sm text-ink-800/50">{{ t('home.pricing.labels.oneTimePayment') }}</p>
+                <p class="text-2xl font-bold text-ink-950">{{ rt(onboarding.oneTime) }}€</p>
+              </div>
+              <p class="my-2 text-sm text-ink-800/50">{{ t('home.pricing.labels.then') }}</p>
+              <div class="rounded-xl bg-ink-900/5 p-4">
+                <p class="text-sm text-ink-800/50">{{ t('home.pricing.labels.perBrand') }}</p>
+                <p class="text-2xl font-bold text-ink-950">{{ rt(onboarding.perBrand) }}€</p>
+                <p class="text-xs text-ink-800/50">{{ t('home.pricing.labels.monthly') }}</p>
+              </div>
+            </div>
+
+            <div>
+              <h4 class="font-semibold text-ink-900">{{ rt(subscription.title) }}</h4>
+              <ul class="mt-4 space-y-3 text-sm">
+                <li v-for="(feature, i) in subscription.features" :key="i" class="flex items-start gap-2">
+                  <PricingCheck />
+                  <span class="text-ink-900">{{ rt(feature) }}</span>
+                </li>
+              </ul>
+
+              <div class="mt-6 rounded-xl border border-ink-900/10 p-4">
+                <p class="text-sm text-ink-800/50">{{ t('home.pricing.labels.oneTimePayment') }}</p>
+                <p class="text-2xl font-bold text-ink-950">{{ rt(subscription.oneTime) }}€</p>
+              </div>
+              <p class="my-2 text-sm text-ink-800/50">{{ t('home.pricing.labels.then') }}</p>
+              <div class="rounded-xl bg-ink-900/5 p-4">
+                <p class="text-sm text-ink-800/50">{{ t('home.pricing.labels.perBrand') }}</p>
+                <p class="text-2xl font-bold text-ink-950">{{ rt(subscription.perBrand) }}€</p>
+                <p class="text-xs text-ink-800/50">{{ t('home.pricing.labels.monthly') }}</p>
+              </div>
+              <div v-if="subscription.variableCost" class="mt-4 rounded-xl bg-ink-900/5 p-4">
+                <p class="text-sm text-ink-800/50">{{ t('home.pricing.labels.variableCosts') }}</p>
+                <p class="text-2xl font-bold text-ink-950">€{{ rt(subscription.variableCost) }}</p>
+                <p class="text-xs text-ink-800/50">{{ t('home.pricing.labels.variableCostsNote') }}</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

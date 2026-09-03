@@ -3,6 +3,7 @@ const props = defineProps<{
   i18nKey: string
   variant?: 'light' | 'peach'
   iconPrefix: string
+  image: string
 }>()
 
 const { t, tm, rt } = useI18n()
@@ -13,10 +14,13 @@ const isPeach = computed(() => props.variant === 'peach')
 <template>
   <section :class="['py-20', isPeach ? 'bg-peach-50' : 'bg-white']">
     <div class="container-page">
-      <div class="max-w-2xl">
-        <p class="section-eyebrow">{{ t(`${i18nKey}.eyebrow`) }}</p>
-        <h2 class="mt-3 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">{{ t(`${i18nKey}.title`) }}</h2>
-        <p class="mt-4 text-ink-800/70">{{ t(`${i18nKey}.subtitle`) }}</p>
+      <div class="grid gap-8 sm:grid-cols-[minmax(0,320px)_1fr] sm:items-center">
+        <img :src="`/images/sections/${image}`" alt="" class="aspect-[4/3] w-full rounded-2xl object-cover" loading="lazy" />
+        <div>
+          <p class="section-eyebrow">{{ t(`${i18nKey}.eyebrow`) }}</p>
+          <h2 class="mt-3 text-3xl font-bold tracking-tight text-ink-900 sm:text-4xl">{{ t(`${i18nKey}.title`) }}</h2>
+          <p class="mt-4 text-ink-800/70">{{ t(`${i18nKey}.subtitle`) }}</p>
+        </div>
       </div>
 
       <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

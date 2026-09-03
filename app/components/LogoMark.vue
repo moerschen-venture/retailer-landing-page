@@ -1,5 +1,7 @@
 <script setup lang="ts">
-withDefaults(defineProps<{ light?: boolean }>(), { light: false })
+withDefaults(defineProps<{ light?: boolean; subtitle?: boolean }>(), { light: false, subtitle: false })
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -8,11 +10,16 @@ withDefaults(defineProps<{ light?: boolean }>(), { light: false })
       <polygon points="14,11 22,11 14,30 6,30" />
       <polygon points="30,2 38,2 30,30 22,30" />
     </svg>
-    <span
-      class="text-base font-extrabold uppercase leading-[0.95] tracking-tight"
-      :class="light ? 'text-white' : 'text-ink-950'"
-    >
-      Machine<br />Master
+    <span class="leading-[0.95]">
+      <span
+        class="block text-base font-extrabold uppercase tracking-tight"
+        :class="light ? 'text-white' : 'text-ink-950'"
+      >
+        Machine<br />Master
+      </span>
+      <span v-if="subtitle" class="mt-0.5 block text-[11px] font-medium normal-case" :class="light ? 'text-white/70' : 'text-ink-800/60'">
+        {{ t('nav.logoSubtitle') }} <span class="text-brand-500">{{ t('nav.logoSubtitleHighlight') }}</span>
+      </span>
     </span>
   </span>
 </template>

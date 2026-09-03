@@ -2,6 +2,7 @@
 const props = defineProps<{
   i18nKey: string
   variant?: 'light' | 'peach'
+  iconPrefix: string
 }>()
 
 const { t, tm, rt } = useI18n()
@@ -24,11 +25,7 @@ const isPeach = computed(() => props.variant === 'peach')
           :key="i"
           :class="isPeach ? '' : 'rounded-2xl border border-ink-900/10 bg-white p-6 shadow-sm'"
         >
-          <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-brand-50 text-brand-500">
-            <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fill-rule="evenodd" d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z" clip-rule="evenodd" />
-            </svg>
-          </span>
+          <img :src="`/images/icons/${iconPrefix}-${i + 1}.png`" alt="" class="h-12 w-12" loading="lazy" />
           <h3 class="mt-4 font-semibold text-ink-900">{{ rt(item.title) }}</h3>
           <p class="mt-2 text-sm text-ink-800/70">{{ rt(item.description) }}</p>
         </div>

@@ -8,9 +8,9 @@ useHead({ title: t('home.hero.title') })
     <HeroSection />
     <StatsBar />
     <BrandCarousel />
-    <BenefitsGrid i18n-key="home.retailerBenefits" />
+    <BenefitsGrid i18n-key="home.retailerBenefits" icon-prefix="retailer" />
     <SolutionsGrid />
-    <BenefitsGrid i18n-key="home.customerBenefits" variant="peach" />
+    <BenefitsGrid i18n-key="home.customerBenefits" variant="peach" icon-prefix="customer" />
     <TrialCta />
     <FaqAccordion />
     <PricingTable />

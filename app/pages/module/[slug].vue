@@ -30,6 +30,7 @@ useHead({ title: t(`${base}.title`) })
 
 <template>
   <div>
+    <ModuleTabs :active="route.params.slug as string" />
     <section class="bg-ink-950 py-20 text-white">
       <div class="container-page max-w-3xl">
         <p class="section-eyebrow text-brand-300">{{ t('nav.modules') }}</p>

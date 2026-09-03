@@ -27,19 +27,17 @@ function setConsent(value: 'accepted' | 'declined') {
 <template>
   <div
     v-if="visible"
-    class="fixed inset-x-0 bottom-0 z-50 border-t border-ink-900/10 bg-white/95 p-4 shadow-[0_-4px_20px_rgba(0,0,0,0.08)] backdrop-blur"
+    class="fixed bottom-4 right-4 z-50 w-[calc(100%-2rem)] max-w-sm rounded-2xl border border-ink-900/10 bg-white p-5 shadow-xl"
   >
-    <div class="container-page flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-      <p class="text-sm text-ink-800/80">
-        {{ t('cookieBanner.text') }}
-        <NuxtLink :to="localePath('/data-privacy')" class="font-semibold text-brand-600 hover:underline">
-          {{ t('cookieBanner.linkText') }}
-        </NuxtLink>
-      </p>
-      <div class="flex flex-shrink-0 gap-3">
-        <button type="button" class="btn-secondary" @click="setConsent('declined')">{{ t('cookieBanner.decline') }}</button>
-        <button type="button" class="btn-primary" @click="setConsent('accepted')">{{ t('cookieBanner.accept') }}</button>
-      </div>
+    <p class="text-sm text-ink-800/80">
+      {{ t('cookieBanner.text') }}
+      <NuxtLink :to="localePath('/data-privacy')" class="font-semibold text-brand-600 hover:underline">
+        {{ t('cookieBanner.linkText') }}
+      </NuxtLink>
+    </p>
+    <div class="mt-4 flex gap-3">
+      <button type="button" class="btn-secondary flex-1 px-4 py-2 text-xs" @click="setConsent('declined')">{{ t('cookieBanner.decline') }}</button>
+      <button type="button" class="btn-primary flex-1 px-4 py-2 text-xs" @click="setConsent('accepted')">{{ t('cookieBanner.accept') }}</button>
     </div>
   </div>
 </template>

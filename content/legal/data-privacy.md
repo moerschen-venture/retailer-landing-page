@@ -14,14 +14,14 @@ MachineMaster GmbH & Co.KG
 Tempelsweg 1,
 47918 Tönisvorst
 
-eingetragen im Handelsregister der Stadt Düsseldorf: HRA 27449
+eingetragen im Handelsregister des Amtsgerichts Krefeld: HRA 7431
 
 Vertreten durch die:
 MachineMaster Verwaltungsgesellschaft mbH
 Tempelsweg 1,
 47918 Tönisvorst
 
-Eingetragen im Handelsregister der Stadt Düsseldorf: HRB 101587
+Eingetragen im Handelsregister des Amtsgerichts Krefeld: HRB 20461
 
 vertreten durch die Geschäftsführer:
 Christian Wenzel und Veit Ulbricht

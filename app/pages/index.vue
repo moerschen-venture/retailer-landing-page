@@ -10,7 +10,7 @@ useHead({ title: t('home.hero.title') })
     <BrandCarousel />
     <BenefitsGrid i18n-key="home.retailerBenefits" />
     <SolutionsGrid />
-    <BenefitsGrid i18n-key="home.customerBenefits" dark />
+    <BenefitsGrid i18n-key="home.customerBenefits" variant="peach" />
     <TrialCta />
     <FaqAccordion />
     <PricingTable />

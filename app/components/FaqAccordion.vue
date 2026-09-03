@@ -23,7 +23,7 @@ function toggle(i: number) {
           >
             {{ rt(item.q) }}
             <svg
-              class="h-5 w-5 flex-shrink-0 text-brand-600 transition-transform"
+              class="h-5 w-5 flex-shrink-0 text-ink-900 transition-transform"
               :class="{ 'rotate-45': openIndex === i }"
               viewBox="0 0 20 20"
               fill="currentColor"

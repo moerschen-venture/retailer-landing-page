@@ -16,9 +16,8 @@ const year = new Date().getFullYear()
   <footer class="border-t border-ink-900/10 bg-ink-950 text-ink-100">
     <div class="container-page grid gap-10 py-16 sm:grid-cols-2 lg:grid-cols-4">
       <div>
-        <NuxtLink :to="localePath('/')" class="flex items-center gap-2 font-bold text-white">
-          <span class="inline-block h-7 w-7 rounded-md bg-brand-500" aria-hidden="true" />
-          MachineMaster
+        <NuxtLink :to="localePath('/')">
+          <LogoMark light />
         </NuxtLink>
         <p class="mt-4 text-sm text-ink-100/70">{{ t('footer.tagline') }}</p>
         <a

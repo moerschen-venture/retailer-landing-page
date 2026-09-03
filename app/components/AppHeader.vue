@@ -19,9 +19,8 @@ const otherLocale = computed(() => locales.value.find((l) => (typeof l === 'stri
 <template>
   <header class="sticky top-0 z-50 border-b border-ink-900/10 bg-white/90 backdrop-blur">
     <div class="container-page flex h-16 items-center justify-between gap-6">
-      <NuxtLink :to="localePath('/')" class="flex items-center gap-2 font-bold text-ink-900">
-        <span class="inline-block h-7 w-7 rounded-md bg-brand-600" aria-hidden="true" />
-        MachineMaster
+      <NuxtLink :to="localePath('/')">
+        <LogoMark />
       </NuxtLink>
 
       <nav class="hidden items-center gap-6 text-sm font-medium text-ink-800 lg:flex">

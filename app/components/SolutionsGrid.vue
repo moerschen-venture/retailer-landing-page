@@ -40,7 +40,7 @@ const active = computed(() => items.value[activeIndex.value])
           <h3 class="text-xl font-semibold text-ink-900">{{ rt(active.title) }}</h3>
           <p class="mt-3 text-ink-800/70">{{ rt(active.description) }}</p>
         </div>
-        <NuxtLink :to="localePath(active.link)" class="btn-primary justify-self-start lg:justify-self-end">
+        <NuxtLink :to="localePath(rt(active.link))" class="btn-primary justify-self-start lg:justify-self-end">
           {{ t('common.learnMore') }}
         </NuxtLink>
       </div>

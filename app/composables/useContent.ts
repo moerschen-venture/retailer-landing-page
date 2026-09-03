@@ -1,7 +1,24 @@
-import matter from 'gray-matter'
 import MarkdownIt from 'markdown-it'
 
 const md = new MarkdownIt({ html: false, linkify: true })
+
+function parseFrontmatter(raw: string): { data: Record<string, string>; content: string } {
+  const match = raw.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?([\s\S]*)$/)
+  if (!match) return { data: {}, content: raw }
+  const [, frontmatter, content] = match
+  const data: Record<string, string> = {}
+  for (const line of frontmatter.split(/\r?\n/)) {
+    const fieldMatch = line.match(/^([A-Za-z0-9_]+):\s*(.*)$/)
+    if (!fieldMatch) continue
+    const [, key, rawValue] = fieldMatch
+    let value = rawValue.trim()
+    if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+      value = value.slice(1, -1)
+    }
+    data[key] = value
+  }
+  return { data, content }
+}
 
 export interface ArticleContent {
   slug: string
@@ -46,7 +63,7 @@ function excerpt(content: string, maxLength = 160) {
 
 const articles: ArticleContent[] = Object.entries(articleFiles)
   .map(([path, raw]) => {
-    const { data, content } = matter(raw)
+    const { data, content } = parseFrontmatter(raw)
     return {
       slug: slugFromPath(path),
       title: data.title as string,
@@ -60,7 +77,7 @@ const articles: ArticleContent[] = Object.entries(articleFiles)
 
 const legalPages: Record<string, LegalContent> = Object.fromEntries(
   Object.entries(legalFiles).map(([path, raw]) => {
-    const { data, content } = matter(raw)
+    const { data, content } = parseFrontmatter(raw)
     const slug = slugFromPath(path)
     return [slug, { slug, title: data.title as string, html: md.render(content) }]
   })

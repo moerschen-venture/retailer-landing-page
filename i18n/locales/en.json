@@ -310,5 +310,47 @@
     "dataPrivacy": "Data Privacy",
     "termsOfUse": "Terms of Use",
     "impressum": "Imprint"
+  },
+  "seo": {
+    "home": {
+      "title": "MachineMaster – Digital sales solutions for the machinery trade",
+      "description": "Showcase your entire portfolio as a ready-made catalogue with configurator, stock and used machines, all enhanced with professional content for your customers."
+    },
+    "catalogue": {
+      "title": "Machine catalogue – your portfolio created in just a few clicks",
+      "description": "Your individual machine catalogue – created in just a few clicks with up-to-date machine data, attractive descriptions, photos and videos."
+    },
+    "configurator": {
+      "title": "Configurator – implementing customer wishes even more easily",
+      "description": "A configurator for your website: let customers configure machines themselves for an efficient ordering process, with built-in logic that prevents incorrect orders."
+    },
+    "usedMachines": {
+      "title": "Used machines – all machinery on one platform",
+      "description": "Everything at once: integrate used machines into your dealer portfolio via CSV upload or by linking trading platforms such as Technikbörse for a fast setup."
+    },
+    "retailerExchange": {
+      "title": "Retailer exchange – the stock machine platform for the industry",
+      "description": "Exchange instead of reordering: check whether the model your customer wants is available from another retailer and avoid long waiting times for new orders."
+    },
+    "articles": {
+      "title": "Articles – news & insights for machinery retailers",
+      "description": "How can I improve my online presence and generate more leads as a machinery retailer? Our tips for your business."
+    },
+    "contact": {
+      "title": "Contact – how to reach us",
+      "description": "Contact MachineMaster – your partner for digital sales solutions in the machinery trade. Use the contact form, call us or send an e-mail."
+    },
+    "impressum": {
+      "title": "Imprint",
+      "description": "Contact details and responsible persons of MachineMaster GmbH & Co. KG."
+    },
+    "dataPrivacy": {
+      "title": "Privacy policy",
+      "description": "Learn how MachineMaster processes and protects your personal data."
+    },
+    "termsOfUse": {
+      "title": "Terms of use",
+      "description": "The terms of use and general terms and conditions of MachineMaster."
+    }
   }
 }

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { t } = useI18n()
 const localePath = useLocalePath()
-useHead({ title: t('articles.title') })
+usePageSeo({ title: t('seo.articles.title'), description: t('seo.articles.description') })
 
 const articles = useArticles()
 </script>

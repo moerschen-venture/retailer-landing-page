@@ -25,7 +25,7 @@ if (!moduleKey) {
 const base = `modules.${moduleKey}`
 const sections = computed(() => tm(`${base}.sections`) as ModuleSection[])
 
-useHead({ title: t(`${base}.title`) })
+usePageSeo({ title: t(`seo.${moduleKey}.title`), description: t(`seo.${moduleKey}.description`) })
 </script>
 
 <template>

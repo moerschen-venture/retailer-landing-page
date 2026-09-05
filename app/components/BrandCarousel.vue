@@ -18,13 +18,13 @@ const brands = [
         {{ t('home.brands.title') }}
       </p>
       <div class="mt-8 flex flex-wrap items-center justify-center gap-x-12 gap-y-8">
+        <!-- all six logos sit above the fold and are tiny: no lazy loading, so they paint together -->
         <img
           v-for="brand in brands"
           :key="brand.file"
           :src="`/images/brands/${brand.file}`"
           :alt="brand.name"
           class="h-10 w-auto object-contain"
-          loading="lazy"
         />
       </div>
     </div>

@@ -24,7 +24,7 @@ const subscription = computed(() => tm('home.pricing.combined.subscription') as 
       </div>
 
       <div class="mt-12 grid grid-cols-1 gap-6 lg:grid-cols-[1fr_2fr] lg:items-start">
-        <!-- Simple tier: Einzelhändler-Austausch -->
+        <!-- Simple tier: Händlerbörse (retailer exchange) -->
         <div class="rounded-3xl border border-ink-900/10 bg-white p-8 shadow-lg">
           <h3 class="text-xl font-semibold text-ink-900">{{ t('home.pricing.simple.name') }}</h3>
           <p class="mt-3 text-sm text-ink-800/70">{{ t('home.pricing.simple.description') }}</p>

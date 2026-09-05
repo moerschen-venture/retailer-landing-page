@@ -3,10 +3,10 @@ const { t } = useI18n()
 const localePath = useLocalePath()
 
 const moduleLinks = [
-  { key: 'catalogue', slug: 'catalogue' },
-  { key: 'configurator', slug: 'configurator' },
-  { key: 'usedMachines', slug: 'used-machines' },
-  { key: 'retailerExchange', slug: 'retailer-exchange' }
+  { key: 'footerCatalogue', slug: 'catalogue' },
+  { key: 'footerUsedMachines', slug: 'used-machines' },
+  { key: 'footerConfigurator', slug: 'configurator' },
+  { key: 'footerRetailerExchange', slug: 'retailer-exchange' }
 ]
 
 const year = new Date().getFullYear()
@@ -37,7 +37,7 @@ const year = new Date().getFullYear()
         <ul class="mt-4 space-y-2 text-sm">
           <li v-for="mod in moduleLinks" :key="mod.slug">
             <NuxtLink :to="localePath(`/module/${mod.slug}`)" class="font-medium text-ink-900 underline hover:text-brand-600">
-              {{ t(`nav.${mod.key}`) }}
+              {{ t(`footer.${mod.key}`) }}
             </NuxtLink>
           </li>
         </ul>
@@ -62,7 +62,7 @@ const year = new Date().getFullYear()
           </a>
           <p class="text-sm font-medium text-ink-900">{{ t('footer.tagline') }}</p>
         </div>
-        <p class="text-sm text-ink-800/50">MachineMaster © {{ year }}. {{ t('footer.rights') }}</p>
+        <p class="text-sm text-ink-800/50">{{ t('footer.copyright', { year }) }}</p>
       </div>
     </div>
   </footer>

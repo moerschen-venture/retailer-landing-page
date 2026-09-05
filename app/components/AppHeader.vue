@@ -8,8 +8,8 @@ const mobileOpen = ref(false)
 
 const moduleLinks = [
   { key: 'catalogue', slug: 'catalogue' },
-  { key: 'configurator', slug: 'configurator' },
   { key: 'usedMachines', slug: 'used-machines' },
+  { key: 'configurator', slug: 'configurator' },
   { key: 'retailerExchange', slug: 'retailer-exchange' }
 ]
 

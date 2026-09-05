@@ -64,13 +64,16 @@ function excerpt(content: string, maxLength = 160) {
 const articles: ArticleContent[] = Object.entries(articleFiles)
   .map(([path, raw]) => {
     const { data, content } = parseFrontmatter(raw)
+    const hasExplicitDescription = Boolean(data.description)
+    const paragraphs = content.trim().split(/\n\s*\n/)
+    const body = hasExplicitDescription ? content : paragraphs.slice(1).join('\n\n')
     return {
       slug: slugFromPath(path),
       title: data.title as string,
       description: (data.description as string | undefined) ?? excerpt(content),
       image: data.image as string | undefined,
       date: data.date as string | undefined,
-      html: md.render(content)
+      html: md.render(body)
     }
   })
   .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? ''))

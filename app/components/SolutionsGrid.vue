@@ -52,7 +52,7 @@ const activeVideoId = computed(() => videoIds[activeIndex.value])
         <div class="mt-8 aspect-video overflow-hidden rounded-2xl bg-ink-900/5">
           <iframe
             :key="activeVideoId"
-            :src="`https://player.vimeo.com/video/${activeVideoId}?quality=720p&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1`"
+            :src="`https://player.vimeo.com/video/${activeVideoId}?dnt=1&quality=720p&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1`"
             class="h-full w-full"
             frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture"

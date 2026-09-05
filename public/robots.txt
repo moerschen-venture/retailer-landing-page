@@ -1,2 +1,4 @@
 User-Agent: *
 Disallow:
+
+Sitemap: https://retailer.machinemaster.de/sitemap_index.xml

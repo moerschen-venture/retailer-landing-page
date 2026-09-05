@@ -1,6 +1,7 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const page = useLegalPage('data-privacy')
-useHead({ title: page?.title ?? 'Datenschutz' })
+usePageSeo({ title: page?.title ?? t('seo.dataPrivacy.title'), description: t('seo.dataPrivacy.description') })
 </script>
 
 <template>

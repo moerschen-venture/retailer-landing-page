@@ -10,10 +10,10 @@
     "faq": "FAQ",
     "pricing": "Preise",
     "contact": "Kontakt",
-    "login": "Einzelhändler",
+    "login": "Händler-Login",
     "mainSite": "Gehe zu",
     "logoSubtitle": "für",
-    "logoSubtitleHighlight": "Einzelhändler"
+    "logoSubtitleHighlight": "Händler"
   },
   "footer": {
     "tagline": "Digitale Vertriebslösung für den Maschinenhandel.",
@@ -53,7 +53,7 @@
       "title": "Maschinen in unserem Katalog"
     },
     "retailerBenefits": {
-      "eyebrow": "Vorteile für Einzelhändler",
+      "eyebrow": "Vorteile für Händler",
       "title": "Vereinfachen Sie Ihren Verkauf",
       "subtitle": "mit der All-in-One-Lösung für den Verkauf und die Verwaltung von Lagerbeständen, Gebraucht- und Neumaschinen!",
       "items": [
@@ -120,8 +120,8 @@
         "variableCostsNote": "pro erfolgreicher Reservierung + 1% des Maschinenpreises"
       },
       "simple": {
-        "name": "Einzelhändler-Austausch",
-        "description": "Tauschen statt neu kaufen - mit der brancheninternen Lagerautomatenbörse können Sie die Wünsche Ihrer Kunden schneller erfüllen und gleichzeitig Ihren eigenen Bestand reduzieren.",
+        "name": "Händlerbörse",
+        "description": "Tauschen statt neu kaufen - mit der brancheninternen Bestandsmaschinenbörse können Sie die Wünsche Ihrer Kunden schneller erfüllen und gleichzeitig Ihren eigenen Bestand reduzieren.",
         "cta": "Jetzt anmelden",
         "monthlyPrice": "29",
         "yearlyPrice": "300",
@@ -233,7 +233,7 @@
           "body": "Gebrauchtmaschinen, Lagermaschinen, neue Maschinen? Mit MachineMaster haben Sie einen klaren Überblick über alle Maschinen in Ihrem Katalog - und präsentieren Ihr komplettes Händlerportfolio einfach und übersichtlich auf Ihrer Website.",
           "features": [
             "Neue und gebrauchte Maschinen auf einer Plattform",
-            "Organisiertes Einzelhandelsportfolio",
+            "Organisiertes Händlerportfolio",
             "Kein Wechsel mehr zwischen verschiedenen Websites"
           ]
         },
@@ -310,5 +310,47 @@
     "dataPrivacy": "Datenschutz",
     "termsOfUse": "Nutzungsbedingungen",
     "impressum": "Impressum"
+  },
+  "seo": {
+    "home": {
+      "title": "MachineMaster – Digitale Vertriebslösung für den Maschinenhandel",
+      "description": "Präsentieren Sie Ihr gesamtes Portfolio als fertigen Maschinenkatalog mit Konfigurator, Lager- und Gebrauchtmaschinen – mit professionellen Inhalten für Ihre Kunden."
+    },
+    "catalogue": {
+      "title": "Maschinenkatalog – Ihr Portfolio in wenigen Klicks erstellt",
+      "description": "Ihr individueller Maschinenkatalog – in wenigen Klicks erstellt, mit aktuellen Maschinendaten, attraktiven Beschreibungen, Fotos und Videos."
+    },
+    "configurator": {
+      "title": "Konfigurator – Kundenwünsche noch einfacher umsetzen",
+      "description": "Konfigurator für Ihre Website: Kunden stellen Maschinen selbst zusammen, der Bestellprozess wird effizienter und hinterlegte Logik verhindert Fehlbestellungen."
+    },
+    "usedMachines": {
+      "title": "Gebrauchtmaschinen – Alle Maschinen auf einer Plattform",
+      "description": "Alles auf einmal: Gebrauchtmaschinen einfach ins Händlerportfolio integrieren – per CSV-Upload oder Verknüpfung mit Handelsplattformen wie der Technikbörse."
+    },
+    "retailerExchange": {
+      "title": "Händlerbörse – Die Bestandsmaschinenplattform für die Branche",
+      "description": "Tauschen statt nachbestellen: Prüfen Sie, ob das gewünschte Modell bei einem anderen Händler verfügbar ist, und vermeiden Sie lange Wartezeiten bei Neubestellungen."
+    },
+    "articles": {
+      "title": "Artikel – Neuigkeiten & Wissen für Maschinenhändler",
+      "description": "Wie verbessere ich als Maschinenhändler meine Online-Präsenz und gewinne mehr Leads? Unsere Tipps für Ihr Unternehmen."
+    },
+    "contact": {
+      "title": "Kontakt – So erreichen Sie uns",
+      "description": "Kontaktieren Sie MachineMaster – Ihren Partner für digitale Vertriebslösungen im Maschinenhandel. Per Kontaktformular, Telefon oder E-Mail."
+    },
+    "impressum": {
+      "title": "Impressum",
+      "description": "Kontaktdaten und verantwortliche Personen der MachineMaster GmbH & Co. KG."
+    },
+    "dataPrivacy": {
+      "title": "Datenschutzerklärung",
+      "description": "Erfahren Sie, wie MachineMaster Ihre personenbezogenen Daten verarbeitet und schützt."
+    },
+    "termsOfUse": {
+      "title": "Nutzungsbedingungen",
+      "description": "Die Nutzungsbedingungen und Allgemeinen Geschäftsbedingungen von MachineMaster."
+    }
   }
 }

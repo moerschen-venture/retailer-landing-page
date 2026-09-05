@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
-useHead({ title: t('home.hero.title') })
+usePageSeo({ title: t('seo.home.title'), description: t('seo.home.description'), fullTitle: true })
 </script>
 
 <template>

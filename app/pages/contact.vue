@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { t } = useI18n()
-useHead({ title: t('contact.title') })
+usePageSeo({ title: t('seo.contact.title'), description: t('seo.contact.description') })
 </script>
 
 <template>

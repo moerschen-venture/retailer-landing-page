@@ -21,7 +21,7 @@ const localePath = useLocalePath()
 
       <div class="aspect-video overflow-hidden rounded-2xl bg-black/40 lg:aspect-[4/3]">
         <iframe
-          src="https://player.vimeo.com/video/964545132?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1"
+          src="https://player.vimeo.com/video/964545132?dnt=1&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1"
           class="h-full w-full"
           frameborder="0"
           allow="autoplay; fullscreen; picture-in-picture"

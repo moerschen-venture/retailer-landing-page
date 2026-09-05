@@ -1,6 +1,7 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const page = useLegalPage('terms-of-use')
-useHead({ title: page?.title ?? 'Nutzungsbedingungen' })
+usePageSeo({ title: page?.title ?? t('seo.termsOfUse.title'), description: t('seo.termsOfUse.description') })
 </script>
 
 <template>

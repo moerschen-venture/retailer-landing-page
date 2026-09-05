@@ -9,7 +9,7 @@ if (!article) {
   throw createError({ statusCode: 404, statusMessage: 'Article not found' })
 }
 
-useHead({ title: article.title })
+usePageSeo({ title: article.title, description: article.description ?? t('seo.articles.description'), type: 'article', image: article.image })
 </script>
 
 <template>

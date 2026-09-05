@@ -1,6 +1,7 @@
 <script setup lang="ts">
+const { t } = useI18n()
 const page = useLegalPage('impressum')
-useHead({ title: page?.title ?? 'Impressum' })
+usePageSeo({ title: page?.title ?? t('seo.impressum.title'), description: t('seo.impressum.description') })
 </script>
 
 <template>

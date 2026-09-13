@@ -39,7 +39,11 @@ The exact per-site snippet was supplied by Christian on 2026-09-12 and is quoted
 - "No cookies set by the addition" is about the Plausible script only. The existing `cookie-consent` **localStorage** entry written by `CookieBanner.vue` stays exactly as it is, and nothing is gated on it (see "Risks").
 - There is no test runner in this repo, so "tests green" means `npm run generate` succeeds and the checks under "Verification and evidence" are run and reported by hand.
 
-Correct me at gate 1, otherwise I proceed with these.
+Approved at gate 1 by Christian on 2026-09-13 (via the front desk, handled directly) with no
+correction to any assumption above: they all stand as written, including the four event names, the
+"Kontakt"-labelled trial CTA, the two pricing CTAs, and the decision that tracking loads on previews
+and localhost too. No alternate trigger was swapped in, so the third stop condition below does not
+apply.
 
 ## Context found
 
@@ -202,7 +206,7 @@ All commands are PowerShell, run from the repo root after `npm install`.
 10. **No cookies** (criterion 16): on the preview with the real Plausible script loaded (no stub), paste `document.cookie` (must be `""`) after visiting `/` and `/contact` and firing the events, plus a screenshot of DevTools → Application → Cookies showing none for the preview host.
 11. **SPA pageviews** (criterion 20): with the real script loaded, filter Network by `plausible.io`, load `/`, then click through to `/contact` client-side. Paste the request list: one request on load is expected; state plainly whether a second one appears on the route change.
 12. **Privacy page** (criterion 14): screenshots of `/data-privacy` and `/en/data-privacy` showing the end of section 5.1 with the new sentence.
-13. **PR body must state** (brief items 3 and 5, and the lawyer flags): (a) that tracking loads everywhere including any deploy preview and localhost, that this repo has no env-based production switch to reuse and none was invented, and that preview/local traffic is to be excluded by hostname in Plausible's Site settings; (b) the GTM finding verbatim — this repo's current `dev` contains no GTM/GA code at all, the `mm-ads` note about a container for `retailer.machinemaster.de` predates the 2026-09-05 move off Webflow, nothing was touched or removed; (c) **lawyer to confirm** on the new Plausible sentence; (d) **lawyer to look** at the pre-existing section 5 cookie text regardless — it reads as copied from another site (it mentions "die Funktion der Kursabwicklung", i.e. course processing, which this site has no such thing as) and it claims analytics cookies are used and consent is collected via a banner, while the actual banner gates nothing and Plausible sets no cookie; not rewritten here, one sentence added only; (e) the criterion-20 SPA-pageview finding.
+13. **PR body must state** (brief items 3 and 5, and the lawyer flags): (a) that tracking loads everywhere including any deploy preview and localhost, that this repo has no env-based production switch to reuse and none was invented, and that preview/local traffic is to be excluded by hostname in Plausible's Site settings; (b) the GTM finding verbatim — this repo's current `dev` contains no GTM/GA code at all, the `mm-ads` note about a container for `retailer.machinemaster.de` predates the 2026-09-05 move off Webflow, nothing was touched or removed; (c) **lawyer to confirm** on the new Plausible sentence; (d) **lawyer to look** at the pre-existing section 5 cookie text regardless — it reads as copied from another site (it mentions "die Funktion der Kursabwicklung", i.e. course processing, which this site has no such thing as) and it claims analytics cookies are used and consent is collected via a banner, while the actual banner gates nothing and Plausible sets no cookie; not rewritten here, one sentence added only; (e) the criterion-20 SPA-pageview finding; (f) that this spec was approved at gate 1 by Christian on 2026-09-13 with no correction, so the four event names and trigger elements are the approved set.
 
 ## Will not do
 
@@ -221,7 +225,7 @@ All commands are PowerShell, run from the repo root after `npm install`.
 
 - The generated HTML shows zero or two Plausible loaders, or the inline init comes out HTML-escaped, and the cause is not obvious in the diff → stop and report; do not add a second injection path or hand-write the tag into a template to compensate.
 - The loader URL 404s on the preview (wrong or rotated script id) → stop and ask for a fresh snippet; do not construct a `src` by hand and do not fall back to the pre-October-2025 generic `data-domain` script.
-- Christian swaps in an alternate trigger (hero button, header Kontakt button, the `/contact` email link) or changes an event name at gate 1 → stop, take the amended list, do not additionally keep the original four "just in case".
+- Christian swaps in an alternate trigger (hero button, header Kontakt button, the `/contact` email link) or changes an event name at gate 1 → stop, take the amended list, do not additionally keep the original four "just in case". (Not triggered: the 2026-09-13 gate-1 approval swapped nothing.)
 - `npm run generate` fails on `dev` before any edit (a pre-existing breakage) → stop and report; do not fix it inside this task.
 - The contact-form fetch stub does not take effect, so the success branch cannot be exercised locally → stop and report which criteria are therefore unproven; do not edit `ContactForm.vue` temporarily to force the branch.
 - Anything requires touching `content/legal/data-privacy.md` beyond appending the one sentence → stop and ask.

@@ -62,6 +62,20 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://use.typekit.net', crossorigin: '' },
         { rel: 'preconnect', href: 'https://p.typekit.net', crossorigin: '' },
         { rel: 'stylesheet', href: 'https://use.typekit.net/uml1pam.css' }
+      ],
+      // Plausible Analytics (hosted, EU, cookieless): the per-site snippet copied verbatim from
+      // Plausible Site settings > General > Site installation (October-2025 format) - the async
+      // loader plus the inline init, which defines the window.plausible queue itself, so no extra
+      // stub is written anywhere. Like the Typekit tags above, this loads on previews and localhost
+      // too; that traffic is excluded by hostname in Plausible's Site settings, not in this repo.
+      script: [
+        { src: 'https://plausible.io/js/pa-rXKknWdUap-pvUrcAxImO.js', async: true },
+        {
+          innerHTML: [
+            'window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};',
+            'plausible.init()'
+          ].join('\n')
+        }
       ]
     }
   }

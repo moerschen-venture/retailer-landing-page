@@ -69,6 +69,7 @@ const otherLocale = computed(() => locales.value.find((l) => (typeof l === 'stri
           target="_blank"
           rel="noopener"
           class="inline-flex items-center gap-1.5 rounded-full border border-white/30 px-5 py-2.5 text-sm font-semibold text-white hover:border-white/60"
+          @click="trackEvent('Retailer Login Click')"
         >
           {{ t('nav.login') }}
           <svg class="h-3.5 w-3.5" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586L8.293 10.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg>
@@ -103,7 +104,7 @@ const otherLocale = computed(() => locales.value.find((l) => (typeof l === 'stri
         <NuxtLink :to="`${localePath('/')}#faq`" @click="mobileOpen = false">{{ t('nav.faq') }}</NuxtLink>
         <NuxtLink :to="`${localePath('/')}#pricing`" @click="mobileOpen = false">{{ t('nav.pricing') }}</NuxtLink>
         <NuxtLink :to="localePath('/contact')" @click="mobileOpen = false">{{ t('nav.contact') }}</NuxtLink>
-        <a href="https://app.machinemaster.de/retailer/login" target="_blank" rel="noopener">{{ t('nav.login') }}</a>
+        <a href="https://app.machinemaster.de/retailer/login" target="_blank" rel="noopener" @click="trackEvent('Retailer Login Click')">{{ t('nav.login') }}</a>
         <a href="https://machinemaster.de" target="_blank" rel="noopener">{{ t('nav.mainSite') }}</a>
         <NuxtLink
           v-if="otherLocale"

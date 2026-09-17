@@ -55,13 +55,11 @@ export default defineNuxtConfig({
         // browsers and tools that ignore SVG icons, the PNG is what iOS uses for home-screen icons
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: '32x32 48x48' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-        // Brand fonts: the Adobe Fonts (Typekit) kit the MachineMaster apps use - roc-grotesk + vista-sans
-        // (kit uml1pam, same as the previous site). Adobe Fonts sets no cookies; the kit has no
-        // domain restriction (checked 2026-09-05), so previews and localhost render it too.
-        { rel: 'preconnect', href: 'https://use.typekit.net', crossorigin: '' },
-        { rel: 'preconnect', href: 'https://p.typekit.net', crossorigin: '' },
-        { rel: 'stylesheet', href: 'https://use.typekit.net/uml1pam.css' }
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+        // Brand font used to be the Adobe Fonts (Typekit) kit uml1pam (roc-grotesk + vista-sans,
+        // same kit as the previous site) - removed 2026-09-17, Adobe licence ends 2026-09-30.
+        // Roc Grotesk is now self-hosted Archivo (Martin, case B) via @font-face in
+        // app/assets/css/main.css; vista-sans was never referenced by any font-family here.
       ],
       // Plausible Analytics (hosted, EU, cookieless): the per-site snippet copied verbatim from
       // Plausible Site settings > General > Site installation (October-2025 format) - the async

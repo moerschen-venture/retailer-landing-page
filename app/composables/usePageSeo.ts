@@ -1,5 +1,5 @@
 // One call per page: title, description, Open Graph and Twitter tags, canonical URL.
-// The old Webflow site shipped all of these on every page; the first Nuxt version only set a bare
+// The previous site shipped all of these on every page; the first Nuxt version only set a bare
 // <title>. Titles get the " · MachineMaster" suffix from nuxt.config's titleTemplate unless
 // `fullTitle` is set (the home page carries the brand name itself).
 export interface PageSeo {

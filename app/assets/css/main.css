@@ -1,8 +1,30 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+/* Archivo — self-hosted (SIL OFL 1.1, licence text at /fonts/archivo/OFL.txt).
+   Replaces Roc Grotesk (Adobe Fonts / Typekit kit uml1pam, licence ends 2026-09-30).
+   Decision: Martin, 2026-09-11 (case B: Roc Grotesk -> Archivo). Vista Sans (also
+   preconnected from the same kit) was never referenced by any font-family in this
+   repo, so it needed no replacement here - just removing the Typekit tags below. */
+@font-face {
+  font-family: "Archivo";
+  src: url("/fonts/archivo/Archivo-Variable.woff2") format("woff2-variations"),
+       url("/fonts/archivo/Archivo-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("/fonts/archivo/Archivo-Italic-Variable.woff2") format("woff2-variations"),
+       url("/fonts/archivo/Archivo-Italic-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
 @theme {
-  --font-sans: "roc-grotesk", "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Archivo", "Instrument Sans", ui-sans-serif, system-ui, sans-serif;
 
   /* Matches the live site's coral/orange accent (#FF5C30) */
   --color-brand-50: #fff3ef;

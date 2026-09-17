@@ -15,6 +15,7 @@ async function handleSubmit(event: Event) {
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
     })
     status.value = 'success'
+    trackEvent('Contact Form Submitted')
     form.reset()
   } catch {
     status.value = 'error'

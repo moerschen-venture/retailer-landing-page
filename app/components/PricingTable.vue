@@ -29,7 +29,7 @@ const subscription = computed(() => tm('home.pricing.combined.subscription') as 
           <h3 class="text-xl font-semibold text-ink-900">{{ t('home.pricing.simple.name') }}</h3>
           <p class="mt-3 text-sm text-ink-800/70">{{ t('home.pricing.simple.description') }}</p>
 
-          <NuxtLink :to="localePath('/contact')" class="btn-primary mt-6 w-full">
+          <NuxtLink :to="localePath('/contact')" class="btn-primary mt-6 w-full" @click="trackEvent('Pricing CTA Click')">
             {{ t('home.pricing.simple.cta') }}
           </NuxtLink>
 
@@ -63,7 +63,7 @@ const subscription = computed(() => tm('home.pricing.combined.subscription') as 
           <h3 class="mt-2 text-xl font-semibold text-ink-900">{{ t('home.pricing.combined.title') }}</h3>
           <p class="mt-3 text-sm text-ink-800/70">{{ t('home.pricing.combined.description') }}</p>
 
-          <NuxtLink :to="localePath('/contact')" class="btn-primary mt-6 w-full">
+          <NuxtLink :to="localePath('/contact')" class="btn-primary mt-6 w-full" @click="trackEvent('Pricing CTA Click')">
             {{ t('home.pricing.combined.cta') }}
           </NuxtLink>
 

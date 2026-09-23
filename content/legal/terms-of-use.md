@@ -6,7 +6,7 @@ title: Allgemeine Geschäftsbedingungen
 
 ### § 1 Geltungsbereich
 
-(1) Diese Allgemeinen Verkaufsbedingungen (im Folgenden: AGB) gelten für alle über unseren Online-Shop bzw. alle über die Plattform MachineMaster.de vermittelten oder geschlossenen Verträge zwischen uns, der Heinrich Moerschen GmbH Tempelsweg 1 47918 Tönisvorst, Geschäftsführer: Jutta Schröer-Ulbricht und Veit Ulbricht, und Sie als unsere Kunden. Die AGB gelten unabhängig davon, ob Sie Verbraucher, Unternehmer oder Kaufmann sind.
+(1) Diese Allgemeinen Verkaufsbedingungen (im Folgenden: AGB) gelten für alle über unseren Online-Shop bzw. alle über die Plattform MachineMaster.de vermittelten oder geschlossenen Verträge zwischen uns, der MachineMaster GmbH & Co. KG, Tempelsweg 1, 47918 Tönisvorst, eingetragen im Handelsregister des Amtsgerichts Krefeld HRA 7431, vertreten durch die MachineMaster Verwaltungsgesellschaft mbH, Tempelsweg 1, 47918 Tönisvorst, eingetragen im Handelsregister des Amtsgerichts Krefeld HRB 20461, diese vertreten durch die Geschäftsführer Christian Wenzel und Veit Ulbricht, und Sie als unsere Kunden. Die AGB gelten unabhängig davon, ob Sie Verbraucher, Unternehmer oder Kaufmann sind.
 
 (2) Alle zwischen Ihnen und uns im Zusammenhang mit dem Kaufvertrag getroffenen Vereinbarungen ergeben sich insbesondere aus diesen Verkaufsbedingungen, unserer schriftlichen Auftragsbestätigung und unserer Annahmeerklärung.
 

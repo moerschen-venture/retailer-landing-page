@@ -43,7 +43,7 @@ usePageSeo({ title: t(`seo.${moduleKey}.title`), description: t(`seo.${moduleKey
       </div>
     </section>
 
-    <div v-if="collage.length" class="bg-[#f2f4f7] py-10">
+    <div v-if="collage.length" class="bg-(--color-surface-mid) py-10">
       <div class="container-page grid grid-cols-3 items-start gap-4">
         <img
           v-for="(img, i) in collage"
@@ -56,7 +56,7 @@ usePageSeo({ title: t(`seo.${moduleKey}.title`), description: t(`seo.${moduleKey
       </div>
     </div>
 
-    <section class="bg-[#f2f4f7] py-10">
+    <section class="bg-(--color-surface-mid) py-10">
       <div class="container-page space-y-6">
         <div v-for="(section, si) in sections" :key="si" class="rounded-xl bg-white p-6 sm:p-10">
           <div class="grid grid-cols-1 items-center gap-8" :class="section.image ? 'md:grid-cols-2' : ''">

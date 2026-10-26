@@ -12,7 +12,7 @@ const brands = [
 </script>
 
 <template>
-  <section class="bg-[#f2f4f7] py-14">
+  <section class="bg-(--color-surface-mid) py-14">
     <div class="container-page">
       <p class="text-center text-sm text-ink-800/60">
         {{ t('home.brands.title') }}

@@ -8,7 +8,8 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
-    "generate": "nuxt generate",
+    "generate": "node scripts/sync-design-tokens.mjs --check && nuxt generate",
+    "tokens:sync": "node scripts/sync-design-tokens.mjs",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },

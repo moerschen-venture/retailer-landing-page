@@ -17,7 +17,7 @@ const activeVideoId = computed(() => videoIds[activeIndex.value])
 </script>
 
 <template>
-  <section id="modules" class="bg-[#f2f4f7] py-20">
+  <section id="modules" class="bg-(--color-surface-mid) py-20">
     <div class="container-page">
       <div class="max-w-2xl">
         <p class="section-eyebrow">{{ t('home.solutions.eyebrow') }}</p>

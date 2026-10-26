@@ -25,7 +25,7 @@ usePageSeo({ title: article.title, description: article.description ?? t('seo.ar
       </div>
     </section>
 
-    <section class="bg-[#f2f4f7] py-16">
+    <section class="bg-(--color-surface-mid) py-16">
       <div class="container-page max-w-3xl">
         <div class="rounded-xl bg-white p-8 sm:p-10">
           <div class="prose max-w-none" v-html="article?.html" />

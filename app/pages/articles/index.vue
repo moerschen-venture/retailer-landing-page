@@ -14,7 +14,7 @@ const articles = useArticles()
       </div>
     </section>
 
-    <section class="bg-[#f2f4f7] py-16">
+    <section class="bg-(--color-surface-mid) py-16">
       <div class="container-page">
         <div class="rounded-3xl bg-white p-6 shadow-sm sm:p-10">
           <div v-if="articles.length" class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">

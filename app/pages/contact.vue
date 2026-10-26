@@ -11,7 +11,7 @@ usePageSeo({ title: t('seo.contact.title'), description: t('seo.contact.descript
       </div>
     </section>
 
-    <section class="bg-[#f2f4f7] py-16">
+    <section class="bg-(--color-surface-mid) py-16">
       <div class="container-page grid max-w-4xl gap-12 lg:grid-cols-2">
         <div>
           <p class="text-ink-800/80">{{ t('contact.subtitle') }}</p>

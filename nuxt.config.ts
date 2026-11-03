@@ -55,11 +55,22 @@ export default defineNuxtConfig({
         // browsers and tools that ignore SVG icons, the PNG is what iOS uses for home-screen icons
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico', sizes: '32x32 48x48' },
-        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }
+        { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+        { rel: 'manifest', href: '/manifest.webmanifest' }
         // Brand font used to be the Adobe Fonts (Typekit) kit uml1pam (roc-grotesk + vista-sans,
         // same kit as the previous site) - removed 2026-09-17, Adobe licence ends 2026-09-30.
         // Roc Grotesk is now self-hosted Archivo (Martin, case B) via @font-face in
         // app/assets/css/main.css; vista-sans was never referenced by any font-family here.
+      ],
+      // Baseline defaults: the per-page usePageSeo() description (same text as seo.home.description
+      // in i18n/locales/de.json for the home page) replaces this one, so a page has exactly one.
+      meta: [
+        { name: 'theme-color', content: '#ff5c30' },
+        {
+          name: 'description',
+          content:
+            'Präsentieren Sie Ihr gesamtes Portfolio als fertigen Maschinenkatalog mit Konfigurator, Lager- und Gebrauchtmaschinen – mit professionellen Inhalten für Ihre Kunden.'
+        }
       ],
       // Plausible Analytics (hosted, EU, cookieless): the per-site snippet copied verbatim from
       // Plausible Site settings > General > Site installation (October-2025 format) - the async
